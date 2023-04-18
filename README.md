@@ -1,16 +1,19 @@
-# Project Name
+# PORTFOLIO
 
-> One paragraph statement about the project.
+> A portfolio project built using CSS flexbox, typography and semantic HTML.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 elements
+  - Semantic elements such as `footer`, `header` and so on,
+- CSS properties
+  - Typography such as `font-size`, `font-weight` and so on,
+  - CSS flexbox such as `justify-content`, `align-items` and so on,
+  - CSS Background for page aesthetic using `background-color`, `background-imge` and so on.
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
 
 ## Live Demo
 
@@ -21,7 +24,7 @@ Additional description about the project and its features.
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/html-css-template.git
+git clone https://github.com/moshoodabdullahi/portfolio.git
 ```
 
 - Install Dependencies
@@ -64,7 +67,6 @@ yarn hint
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
@@ -84,9 +86,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [Portfolio-project Figma](https://www.figma.com/file/LKueaSlr8Kc2yMKeZkKgtm/portfolio_project?node-id=0-1&t=832EHDclWuSK5XPh-0)
 
 ## 📝 License
 
