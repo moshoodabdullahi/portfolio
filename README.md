@@ -4,8 +4,10 @@
 
 ![screenshot](./app_screenshot.png)
 
+## Built with
+
 - HTML5 elements
-  - Semantic elements such as `footer`, `header` and so on,
+  - Semantic elements such as `header`, `div`, `section` and so on.
 - CSS properties
   - Typography such as `font-size`, `font-weight` and so on,
   - CSS flexbox such as `justify-content`, `align-items` and so on,

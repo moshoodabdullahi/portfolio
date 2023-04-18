@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  padding: 50px;
+  padding-bottom: 136px;
+  box-sizing: border-box;
+  border-radius: 0 0 0 200px;
+  border: 3px solid #d4d4d4;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+section {
+  margin-top: 20px;
+}
+
+#toolbox-id {
+  background-image: url("../header-shapes-mobile.png");
+  background-size: cover;
+}
+
+.logo,
+.link {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.logo {
+  color: blue;
+}
+
+.image {
+  color: royalblue;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(71 65 65);
+  display: flex;
+  justify-content: space-between;
+}
+
+.headline {
+  font-size: 65px;
+  padding-top: 120px;
+}
+
+.headline-section {
+  padding: 57px 46px 5px 50px;
+}
+
+.sh-section {
+  padding: 5px 40px 0 50px;
+}
+
+.writeup {
+  margin-top: 20px;
+  font-size: 27px;
+}
+
+.second-headline {
+  color: royalblue;
+  font-size: 23px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-right: 214px;
+}
