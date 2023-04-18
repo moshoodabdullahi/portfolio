@@ -2,7 +2,7 @@
 
 > A portfolio project built using CSS flexbox, typography and semantic HTML.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./dema-portfolio.netlify.app_.png)
 
 ## Built with
 
@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://dema-portfolio.netlify.app/)
 
 ### Development (Running locally)
 
