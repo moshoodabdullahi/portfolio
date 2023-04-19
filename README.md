@@ -1,6 +1,6 @@
 # PORTFOLIO
 
-> A portfolio project built using CSS flexbox, typography and semantic HTML.
+> A setup and mobile view of portfolio project built using CSS flexbox, typography and semantic HTML.
 
 ![screenshot](./dema-portfolio.netlify.app_.png)
 
@@ -16,6 +16,9 @@
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
 - GitHub Action
+  - [Setup and mobile version skeleton](https://github.com/bolah2009/curriculum-html-css/blob/main/portfolio/1_setup.md)
+- Acknowledgment
+  - [Portfolio-project Figma Design](https://www.figma.com/file/LKueaSlr8Kc2yMKeZkKgtm/portfolio_project?node-id=0-1&t=832EHDclWuSK5XPh-0)
 
 ## Live Demo
 
@@ -88,7 +91,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Portfolio-project Figma](https://www.figma.com/file/LKueaSlr8Kc2yMKeZkKgtm/portfolio_project?node-id=0-1&t=832EHDclWuSK5XPh-0)
+- [Portfolio-project Figma Design](https://www.figma.com/file/LKueaSlr8Kc2yMKeZkKgtm/portfolio_project?node-id=0-1&t=832EHDclWuSK5XPh-0)
 
 ## 📝 License
 
