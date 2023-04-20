@@ -1,6 +1,6 @@
 # PORTFOLIO
 
-> A setup and mobile view of portfolio project built using CSS flexbox, typography and semantic HTML.
+> A portfolio website is one of the most powerful tools in software developer toolbox, replicating one of the portfolio templates in Figma design.
 
 ![screenshot](./dema-portfolio.netlify.app_.png)
 
