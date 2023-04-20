@@ -1,3 +1,5 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+
 * {
   padding: 0;
   margin: 0;
@@ -20,13 +22,9 @@ body {
 }
 
 .logo {
-  color: blue;
+  color: rgb(96 112 255);
   font-size: 22px;
   font-weight: 700;
-}
-
-.image {
-  color: royalblue;
 }
 
 .hero {
@@ -47,14 +45,14 @@ body {
 }
 
 .second-headline {
-  color: royalblue;
+  color: rgb(161 170 255);
   font-size: 16px;
   margin-bottom: 16px;
 }
 
-ul {
+.icons {
   display: flex;
   justify-content: space-between;
-  padding-right: 350px;
+  padding-right: 21rem;
   list-style: none;
 }
