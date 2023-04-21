@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Roboto&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap";
 
 * {
   padding: 0;
@@ -7,11 +7,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
-  box-sizing: border-box;
-  border-radius: 0 0 0 120px;
-  border: 3px solid #d4d4d4;
-  height: 649px;
+  background-color: #e5e5e5;
 }
 
 .nav-bar {
@@ -19,33 +15,48 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px 20px;
+  background-color: #fff;
 }
 
 .logo {
+  font-family: poppins, sans-serif;
   color: rgb(96 112 255);
   font-size: 22px;
   font-weight: 700;
 }
 
-.hero {
+.hero-section {
   background-image: url("../header-shapes-mobile.png");
   background-size: cover;
   padding: 0 24px 24px;
+  height: 578px;
+  border-bottom-left-radius: 65px;
+  background-color: #fff;
 }
 
 .headline {
-  font-size: 78px;
+  font-family: poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
   margin-bottom: 24px;
   padding-top: 36px;
+  color: #172b4d;
 }
 
 .writeup {
-  font-size: 18px;
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
   margin-bottom: 16px;
+  line-height: 24px;
+}
+
+.sub-section {
+  width: 65%;
 }
 
 .second-headline {
-  color: rgb(161 170 255);
+  color: #7f8cff;
   font-size: 16px;
   margin-bottom: 16px;
 }
@@ -53,6 +64,5 @@ body {
 .icons {
   display: flex;
   justify-content: space-between;
-  padding-right: 21rem;
   list-style: none;
 }
