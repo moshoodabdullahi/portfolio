@@ -1,27 +1,35 @@
-# Project Name
+# PORTFOLIO
 
-> One paragraph statement about the project.
+> A portfolio website is one of the most powerful tools in software developer toolbox, replicating one of the portfolio templates in Figma design.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./dema-portfolio.netlify.app\_ .png)
 
-Additional description about the project and its features.
+## Built with
 
-## Built With
-
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 elements
+  - Semantic elements such as `header`, `div`, `section` and so on.
+- CSS properties
+  - Typography such as `font-size`, `font-weight` and so on,
+  - CSS flexbox such as `justify-content`, `align-items` and so on,
+  - CSS Background for page aesthetic using `background-color`, `background-imge` and so on.
+- Linters
+  - [Prettier](https://prettier.io/),
+  - [Stylelint](https://stylelint.io/).
+- GitHub Action
+  - [Setup and mobile version skeleton](https://github.com/bolah2009/curriculum-html-css/blob/main/portfolio/1_setup.md)
+- Acknowledgment
+  - [Portfolio-project Figma Design](https://www.figma.com/file/LKueaSlr8Kc2yMKeZkKgtm/portfolio_project?node-id=0-1&t=832EHDclWuSK5XPh-0)
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://dema-portfolio.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/moshoodabdullahi/html-css-template.git
+git clone https://github.com/moshoodabdullahi/portfolio.git
 ```
 
 - Install Dependencies
@@ -64,7 +72,6 @@ yarn hint
 
 - [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
 ## 👤 Author
@@ -84,9 +91,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [Portfolio-project Figma Design](https://www.figma.com/file/LKueaSlr8Kc2yMKeZkKgtm/portfolio_project?node-id=0-1&t=832EHDclWuSK5XPh-0)
 
 ## 📝 License
 
