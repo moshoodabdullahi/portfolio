@@ -51,18 +51,22 @@ body {
   line-height: 24px;
 }
 
-.sub-section {
+.social-section {
   width: 65%;
 }
 
-.second-headline {
+.social-headline {
   color: #7f8cff;
   font-size: 16px;
   margin-bottom: 16px;
 }
 
-.icons {
+.social-icons {
   display: flex;
   justify-content: space-between;
   list-style: none;
+}
+
+.social-icons path:hover {
+  fill: #000;
 }
