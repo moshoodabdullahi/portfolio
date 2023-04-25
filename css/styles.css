@@ -65,7 +65,7 @@ body {
   fill: #000;
 }
 
-.about-icons {
+ul {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -75,10 +75,10 @@ body {
 }
 
 .works {
-  margin: 70px 16px 16px;
+  margin: 70px 26px;
   padding: 14px;
   height: 15%;
-  width: 92%;
+  width: 85%;
   border-radius: 15px;
   background-color: #fff;
 }
