@@ -61,12 +61,145 @@ body {
   margin-bottom: 16px;
 }
 
+.social-icons path:hover {
+  fill: #000;
+}
+
+.works {
+  margin: 70px 16px 16px;
+  padding: 14px;
+  height: 15%;
+  width: 92%;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.works-headline {
+  font-family: poppins, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.works-list {
+  display: block;
+}
+
+.content {
+  font-family: poppins, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.content:hover {
+  color: #344563;
+}
+
+.dot {
+  background-color: #c1c7c0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.works-writeup {
+  font-family: poppins, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 24px 0;
+  color: #344563;
+}
+
+.works-link {
+  background-color: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  text-decoration: none;
+  color: #6070ff;
+}
+
 .social-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 88%;
+}
+
+.btn {
+  font-family: poppins, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 10px 16px;
+  border-radius: 8px;
+  margin-top: 22px;
+  line-height: 24px;
+  border-width: thin;
+  color: #396df2;
+  border-color: #396df2;
+  background-color: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #396df2;
+}
+
+.about-section {
+  padding: 0 24px 24px;
+  height: 94%;
+  border-top-right-radius: 65px;
+  background-color: #fff;
+  margin-top: 68px;
+}
+
+.about-headline {
+  font-family: poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  padding-top: 36px;
+  color: #172b4d;
+}
+
+.about-writeup {
+  font-size: 16px;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  margin-bottom: 16px;
+  line-height: 24px;
+}
+
+.abt-social-section {
+  width: 95%;
+}
+
+.abt-social-headline {
+  color: #7f8cff;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.abt-social-icons {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
 }
 
-.social-icons path:hover {
-  fill: #000;
+.about-lang {
+  font-family: poppins, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 12px 0;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
