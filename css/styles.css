@@ -65,6 +65,15 @@ body {
   fill: #000;
 }
 
+.about-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
+
 .works {
   margin: 70px 16px 16px;
   padding: 14px;
@@ -181,15 +190,6 @@ body {
   color: #7f8cff;
   font-size: 16px;
   margin-bottom: 16px;
-}
-
-.abt-social-icons {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  flex-direction: row;
-  align-items: center;
-  width: 70%;
 }
 
 .about-lang {
