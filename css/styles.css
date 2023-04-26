@@ -71,7 +71,7 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 75%;
+  width: 66%;
 }
 
 .works {
@@ -88,10 +88,24 @@ ul {
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
+  margin-bottom: 10px;
+}
+
+.about-icon {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
 }
 
 .works-list {
   display: block;
+}
+
+.works-img {
+  width: 100%;
 }
 
 .content {
