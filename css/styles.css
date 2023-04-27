@@ -7,7 +7,8 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: rgb(247 247 249);
+  font-family: poppins, sans-serif;
 }
 
 .nav-bar {
@@ -19,7 +20,6 @@ body {
 }
 
 .logo {
-  font-family: poppins, sans-serif;
   color: rgb(96 112 255);
   font-size: 22px;
   font-weight: 700;
@@ -35,17 +35,15 @@ body {
 }
 
 .headline {
-  font-family: poppins, sans-serif;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 24px;
   padding-top: 36px;
-  color: #172b4d;
+  color: rgb(23 43 77);
 }
 
 .writeup {
   font-size: 16px;
-  font-family: poppins, sans-serif;
   font-weight: 400;
   margin-bottom: 16px;
   line-height: 24px;
@@ -56,13 +54,13 @@ body {
 }
 
 .social-headline {
-  color: #7f8cff;
+  color: rgb(127 140 255);
   font-size: 16px;
   margin-bottom: 16px;
 }
 
 .social-icons path:hover {
-  fill: #000;
+  fill: rgb(60 76 105);
 }
 
 .works {
@@ -75,7 +73,6 @@ body {
 }
 
 .works-headline {
-  font-family: poppins, sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -88,7 +85,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 75%;
+  width: 82%;
 }
 
 .works-list {
@@ -101,7 +98,7 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
+  width: 88%;
 }
 
 .works-img {
@@ -109,38 +106,36 @@ ul {
 }
 
 .content {
-  font-family: poppins, sans-serif;
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  color: #7a869a;
+  color: rgb(215 219 225);
 }
 
 .content:hover {
-  color: #344563;
+  color: rgb(65 81 109);
 }
 
 .dot {
-  background-color: #c1c7c0;
+  background-color: rgb(193 199 208);
   width: 8px;
   height: 8px;
   border-radius: 50%;
 }
 
 .works-writeup {
-  font-family: poppins, sans-serif;
   font-size: 15px;
   font-weight: 400;
   padding: 24px 4px;
-  color: #344563;
+  color: rgb(58 74 103);
 }
 
 .works-link {
-  background-color: #ebebff;
+  background-color: rgb(235 235 255);
   border-radius: 8px;
   padding: 4px 12px;
   text-decoration: none;
-  color: #6070ff;
+  color: rgb(127 140 255);
 }
 
 .social-icons {
@@ -153,7 +148,6 @@ ul {
 }
 
 .btn {
-  font-family: poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
   padding: 10px 16px;
@@ -161,14 +155,14 @@ ul {
   margin-top: 22px;
   line-height: 24px;
   border-width: thin;
-  color: #396df2;
-  border-color: #396df2;
+  color: rgb(57 109 242);
+  border-color: rgb(138 150 255);
   background-color: #fff;
 }
 
 .btn:hover {
   color: #fff;
-  background-color: #396df2;
+  background-color: rgb(57 109 242);
 }
 
 .about-section {
@@ -180,17 +174,15 @@ ul {
 }
 
 .about-headline {
-  font-family: poppins, sans-serif;
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 24px;
   padding-top: 36px;
-  color: #172b4d;
+  color: rgb(23 43 77);
 }
 
 .about-writeup {
   font-size: 16px;
-  font-family: poppins, sans-serif;
   font-weight: 400;
   margin-bottom: 16px;
   line-height: 24px;
@@ -201,13 +193,12 @@ ul {
 }
 
 .abt-social-headline {
-  color: #7f8cff;
+  color: rgb(130 142 255);
   font-size: 16px;
   margin-bottom: 16px;
 }
 
 .about-lang {
-  font-family: poppins, sans-serif;
   font-weight: 500;
   font-size: 20px;
   padding: 12px 24px 12px 8px;
