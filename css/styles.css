@@ -6,8 +6,26 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #fff;
+  --logo-color: #6070ff;
+  --btn-color : #396df2;
+  --headline-color: #172b4d;
+  --content-color : #7a869a;
+  --social-icons-color: #505f79;
+  --content-hover-color : #344563;
+  --dot-background-color : #c1c7d0;
+  --body-background-color: #e5e5e5;
+  --vector-background-color : #f7f7f9;
+  --workslink-background-color : #ebebff;
+  --abt-social-headline-color: #7f8cff;
+  --btn-disabled-color: #5E6C84;
+  --btn-active-background-color: #2230d2;
+  --btn-hover-box-shadow: rgba(64 83 252 24%);
+}
+
 body {
-  background-color: #e5e5e5;
+  background-color: var(--body-background-color);
   font-family: poppins, sans-serif;
 }
 
@@ -16,11 +34,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px 20px;
-  background-color: #fff;
+  background-color: var(--primary-color);
 }
 
 .logo {
-  color: #6070ff;
+  color: var(--logo-color);
   font-size: 22px;
   font-weight: 700;
 }
@@ -31,7 +49,7 @@ body {
   padding: 0 24px 24px;
   height: 578px;
   border-bottom-left-radius: 65px;
-  background-color: #fff;
+  background-color: var(--primary-color);
 }
 
 .headline {
@@ -39,7 +57,7 @@ body {
   font-weight: 700;
   margin-bottom: 24px;
   padding-top: 36px;
-  color: #172b4d;
+  color: var(--headline-color);
 }
 
 .writeup {
@@ -54,13 +72,13 @@ body {
 }
 
 .social-headline {
-  color: #7f8cff;
+  color: var(--abt-social-headline-color);
   font-size: 16px;
   margin-bottom: 16px;
 }
 
 .social-icons path:hover {
-  fill: #505f79;
+  fill: var(--social-icons-color);
 }
 
 .works {
@@ -74,7 +92,7 @@ body {
   padding: 14px;
   margin-bottom: 62px;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: var(--primary-color);
 }
 
 .works-headline {
@@ -123,15 +141,15 @@ body {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  color: #7a869a;
+  color: var(--content-color);
 }
 
 .content:hover {
-  color: #344563;
+  color: var(--content-hover-color);
 }
 
 .dot {
-  background-color: #c1c7d0;
+  background-color: var(--dot-background-color);
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -141,15 +159,15 @@ body {
   font-size: 15px;
   font-weight: 400;
   padding: 24px 4px;
-  color: #344563;
+  color: var(--content-hover-color);
 }
 
 .works-link {
-  background-color: #ebebff;
+  background-color: var(--workslink-background-color);
   border-radius: 8px;
   padding: 2px 8px;
   text-decoration: none;
-  color: #6070ff;
+  color: var( --logo-color);
 }
 
 .social-icons {
@@ -169,32 +187,32 @@ body {
   margin-top: 22px;
   line-height: 24px;
   border-width: thin;
-  color: #396df2;
-  border-color: #396df2;
-  background-color: #fff;
+  color: var(--btn-color);
+  border-color: var(--btn-color);
+  background-color: var(--primary-color);
 }
 
 .btn:hover {
-  color: #fff;
-  background-color: #396df2;
-  box-shadow: 0 8px 16px rgba(64 83 252 24%);
+  color: var(--primary-color);
+  background-color: var(--btn-color);
+  box-shadow: 0 8px 16px var(--btn-hover-box-shadow);
 }
 
 .btn:active {
-  color: #fff;
-  background-color: #2230d2;
+  color: var(--primary-color);
+  background-color: var(--btn-active-background-color);
 }
 
 .btn:disabled {
-  color: #5E6C84;
-  background-color: #fff;
+  color: var(--btn-disabled-color);
+  background-color: var(--primary-color);
 }
 
 .about-section {
   padding: 0 24px 24px;
   height: 94%;
   border-top-right-radius: 65px;
-  background-color: #fff;
+  background-color: var(--primary-color);
   margin-top: 68px;
 }
 
@@ -203,7 +221,7 @@ body {
   font-weight: 700;
   margin-bottom: 24px;
   padding-top: 36px;
-  color: #172b4d;
+  color: var(--headline-color);
 }
 
 .about-writeup {
@@ -218,7 +236,7 @@ body {
 }
 
 .abt-social-headline {
-  color: #7f8cff;
+  color: var(--abt-social-headline-color);
   font-size: 16px;
   margin-bottom: 16px;
 }
@@ -231,7 +249,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   list-style: none;
-  background-color: #f7f7f9;
+  background-color: var(--vector-background-color);
   padding: 18px;
   margin: 12px;
   border-radius: 8px;
@@ -264,7 +282,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #7a869a;
+  border-bottom: 1px solid var(--content-color);
 }
 
 .about-frame {
