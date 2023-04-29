@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 
 * {
   padding: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(247 247 249);
+  background-color: #e5e5e5;
   font-family: poppins, sans-serif;
 }
 
@@ -20,13 +20,13 @@ body {
 }
 
 .logo {
-  color: rgb(96 112 255);
+  color: #6070ff;
   font-size: 22px;
   font-weight: 700;
 }
 
 .hero-section {
-  background-image: url("../header-shapes-mobile.png");
+  background-image: url("../images/header-shapes-mobile.png");
   background-size: cover;
   padding: 0 24px 24px;
   height: 578px;
@@ -39,7 +39,7 @@ body {
   font-weight: 700;
   margin-bottom: 24px;
   padding-top: 36px;
-  color: rgb(23 43 77);
+  color: #172b4d;
 }
 
 .writeup {
@@ -54,20 +54,25 @@ body {
 }
 
 .social-headline {
-  color: rgb(127 140 255);
+  color: #7f8cff;
   font-size: 16px;
   margin-bottom: 16px;
 }
 
 .social-icons path:hover {
-  fill: rgb(60 76 105);
+  fill: #505f79;
 }
 
 .works {
-  margin: 70px 30px;
-  padding: 14px;
+  margin: 70px auto;
   height: 15%;
   width: 85%;
+  list-style: none;
+}
+
+.work {
+  padding: 14px;
+  margin-bottom: 62px;
   border-radius: 15px;
   background-color: #fff;
 }
@@ -85,20 +90,29 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 82%;
+  width: 65%;
 }
 
 .works-list {
   display: block;
 }
 
-ul {
+.about-link {
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 88%;
+  width: 65%;
+}
+
+.about-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 74%;
 }
 
 .works-img {
@@ -109,15 +123,15 @@ ul {
   font-size: 13px;
   font-weight: 600;
   line-height: 16px;
-  color: rgb(215 219 225);
+  color: #7a869a;
 }
 
 .content:hover {
-  color: rgb(65 81 109);
+  color: #344563;
 }
 
 .dot {
-  background-color: rgb(193 199 208);
+  background-color: #c1c7d0;
   width: 8px;
   height: 8px;
   border-radius: 50%;
@@ -127,15 +141,15 @@ ul {
   font-size: 15px;
   font-weight: 400;
   padding: 24px 4px;
-  color: rgb(58 74 103);
+  color: #344563;
 }
 
 .works-link {
-  background-color: rgb(235 235 255);
+  background-color: #ebebff;
   border-radius: 8px;
-  padding: 4px 12px;
+  padding: 2px 8px;
   text-decoration: none;
-  color: rgb(127 140 255);
+  color: #6070ff;
 }
 
 .social-icons {
@@ -155,14 +169,25 @@ ul {
   margin-top: 22px;
   line-height: 24px;
   border-width: thin;
-  color: rgb(57 109 242);
-  border-color: rgb(138 150 255);
+  color: #396df2;
+  border-color: #396df2;
   background-color: #fff;
 }
 
 .btn:hover {
   color: #fff;
-  background-color: rgb(57 109 242);
+  background-color: #396df2;
+  box-shadow: 0 8px 16px rgba(64 83 252 24%);
+}
+
+.btn:active {
+  color: #fff;
+  background-color: #2230d2;
+}
+
+.btn:disabled {
+  color: #5E6C84;
+  background-color: #fff;
 }
 
 .about-section {
@@ -178,7 +203,7 @@ ul {
   font-weight: 700;
   margin-bottom: 24px;
   padding-top: 36px;
-  color: rgb(23 43 77);
+  color: #172b4d;
 }
 
 .about-writeup {
@@ -189,24 +214,57 @@ ul {
 }
 
 .abt-social-section {
-  width: 95%;
+  width: 65%;
 }
 
 .abt-social-headline {
-  color: rgb(130 142 255);
+  color: #7f8cff;
   font-size: 16px;
   margin-bottom: 16px;
+}
+
+.lang-header {
+  list-style: none;
+}
+
+.lang-vector {
+  font-size: 24px;
+  font-weight: 400;
+  list-style: none;
+  background-color: #f7f7f9;
+  padding: 18px;
+  margin: 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ellipse {
+  padding-right: 12px;
 }
 
 .about-lang {
   font-weight: 500;
   font-size: 20px;
-  padding: 12px 24px 12px 8px;
+  padding: 24px 24px 24px 14px;
   line-height: 24px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.about-language {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 24px 24px 24px 8px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #7a869a;
 }
 
 .about-frame {
