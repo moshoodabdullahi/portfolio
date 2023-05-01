@@ -2,7 +2,7 @@
 
 > A portfolio website is one of the most powerful tools in software developer toolbox, replicating one of the portfolio templates in Figma design.
 
-![screenshot](./dema-portfolio.netlify.app\_ .png)
+![screenshot](./dema-portfolio-project.netlify.app_.png)
 
 ## Built with
 
@@ -17,6 +17,8 @@
   - [Stylelint](https://stylelint.io/).
 - GitHub Action
   - [Setup and mobile version skeleton](https://github.com/bolah2009/curriculum-html-css/blob/main/portfolio/1_setup.md)
+  - [Mobile Version](https://github.com/bolah2009/curriculum-html-css/blob/main/portfolio/2_mobile.md)
+  - [Contact Form]
 - Acknowledgment
   - [Portfolio-project Figma Design](https://www.figma.com/file/LKueaSlr8Kc2yMKeZkKgtm/portfolio_project?node-id=0-1&t=832EHDclWuSK5XPh-0)
 
