@@ -10,11 +10,11 @@
   <body>
     <nav class="nav-bar">
       <div class="logo">My Logo</div>
-      <img class="image" src="images/menu-custom.png" />
+      <img class="image" src="images/menu-custom.png" alt="menu custom" />
     </nav>
 
     <section class="hero-section">
-      <h1 class="headline"><span>I'm Abdullahi</span> <span>Glad to see you!</span></h1>
+      <h1 class="headline"><span> I'm Abdullahi</span> <span>Glad to see you!</span></h1>
       <p class="writeup">
         I'm a software developer! I can help you build a product, feature or website look through
         some of my work and experience! If you like what you see and have a project you need coded,
@@ -338,15 +338,15 @@
 
           <ul>
             <li class="lang-vector">
-              <img class="ellipse" src="images/ellipse-javascript.png" />
+              <img class="ellipse" src="images/ellipse-javascript.png" alt="" />
               JavaScript
             </li>
             <li class="lang-vector">
-              <img class="ellipse" src="images/ellipse-html.png" />
+              <img class="ellipse" src="images/ellipse-html.png" alt="" />
               HTML
             </li>
             <li class="lang-vector">
-              <img class="ellipse" src="images/ellipse-css.png" />
+              <img class="ellipse" src="images/ellipse-css.png" alt="" />
               CSS
             </li>
           </ul>
@@ -392,6 +392,69 @@
           </p>
         </li>
       </ul>
+
+      <section class="contact-section">
+        <h3 class="contact-headline">Contact me</h3>
+        <p class="contact-writeup">
+          If you have an application you are interested in developing, a feature that you need built
+          or a project that needs coding. I'd love to help with it
+        </p>
+
+        <form action="https://formspree.io/f/mjvdlgnp" method="POST" class="contact-form">
+          <div class="contact-group">
+            <label id="name-label" for="name">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="contact-control"
+                placeholder="Enter Your Name"
+                maxlength="30"
+                required
+            /></label>
+          </div>
+
+          <div class="contact-group">
+            <label id="email-label" for="email">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}&"
+                class="contact-control"
+                placeholder="Enter Your Email"
+                required
+              />
+            </label>
+          </div>
+
+          <label class="contact-text">
+            <textarea
+              id="comments"
+              type="text"
+              class="contact-comment-text"
+              name="comment"
+              placeholder="Write your message here"
+              maxlength="500"
+              required
+            ></textarea>
+          </label>
+
+          <button class="contact-btn">Get in touch</button>
+        </form>
+
+        <div class="contact-shape">
+          <svg
+            width="134"
+            height="5"
+            viewBox="0 0 134 5"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect width="134" height="5" rx="2.5" fill="#0D151E" />
+          </svg>
+        </div>
+      </section>
     </section>
   </body>
 </html>
