@@ -22,11 +22,11 @@
   --btn-disabled-color: #5E6C84;
   --btn-active-background-color: #2230d2;
   --btn-hover-box-shadow: rgba(64 83 252 24%);
+  --btn-hover-background-color: #6070ff;
 }
 
 body {
   background-color: var(--body-background-color);
-  font-family: poppins, sans-serif;
 }
 
 .nav-bar {
@@ -38,9 +38,8 @@ body {
 }
 
 .logo {
+  font: 700 22px poppins, sans-serif;
   color: var(--logo-color);
-  font-size: 22px;
-  font-weight: 700;
 }
 
 .hero-section {
@@ -53,18 +52,15 @@ body {
 }
 
 .headline {
-  font-size: 40px;
-  font-weight: 700;
+  font: 700 40px poppins, sans-serif;
   margin-bottom: 24px;
   padding-top: 36px;
   color: var(--headline-color);
 }
 
 .writeup {
-  font-size: 16px;
-  font-weight: 400;
+  font: 400 16px /24px poppins, sans-serif;
   margin-bottom: 16px;
-  line-height: 24px;
 }
 
 .social-section {
@@ -72,8 +68,8 @@ body {
 }
 
 .social-headline {
+  font: 500 16px poppins, sans-serif;
   color: var(--abt-social-headline-color);
-  font-size: 16px;
   margin-bottom: 16px;
 }
 
@@ -96,9 +92,7 @@ body {
 }
 
 .works-headline {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
+  font: 700 32px /44px poppins, sans-serif;
   margin-bottom: 10px;
 }
 
@@ -138,9 +132,7 @@ body {
 }
 
 .content {
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 16px;
+  font: 600 13px /16px poppins, sans-serif;
   color: var(--content-color);
 }
 
@@ -156,8 +148,7 @@ body {
 }
 
 .works-writeup {
-  font-size: 15px;
-  font-weight: 400;
+  font: 400 15px poppins, sans-serif;
   padding: 24px 4px;
   color: var(--content-hover-color);
 }
@@ -180,12 +171,10 @@ body {
 }
 
 .btn {
-  font-size: 17px;
-  font-weight: 500;
+  font: 500 17px /24px poppins, sans-serif;
   padding: 10px 16px;
   border-radius: 8px;
   margin-top: 22px;
-  line-height: 24px;
   border-width: thin;
   color: var(--btn-color);
   border-color: var(--btn-color);
@@ -209,27 +198,25 @@ body {
 }
 
 .about-section {
-  height: 1263px;
+  height: 79rem;
+  width: 100%;
   border-top-right-radius: 65px;
   background-color: var(--primary-color);
   margin-top: 68px;
 }
 
 .about-headline {
+  font: 700 40px poppins, sans-serif;
   padding: 0 24px;
-  font-size: 40px;
-  font-weight: 700;
   margin-bottom: 24px;
   padding-top: 36px;
   color: var(--headline-color);
 }
 
 .about-writeup {
+  font: 400 16px /24px poppins, sans-serif;
   padding: 0 24px;
-  font-size: 16px;
-  font-weight: 400;
   margin-bottom: 16px;
-  line-height: 24px;
 }
 
 .abt-social-section {
@@ -238,8 +225,8 @@ body {
 }
 
 .abt-social-headline {
+  font: 500 16px poppins, sans-serif;
   color: var(--abt-social-headline-color);
-  font-size: 16px;
   margin-bottom: 16px;
 }
 
@@ -249,8 +236,7 @@ body {
 }
 
 .lang-vector {
-  font-size: 24px;
-  font-weight: 400;
+  font: 400 24px poppins, sans-serif;
   list-style: none;
   background-color: var(--vector-background-color);
   padding: 12px;
@@ -266,10 +252,8 @@ body {
 }
 
 .about-lang {
-  font-weight: 500;
-  font-size: 20px;
+  font: 500 20px /24px poppins, sans-serif;
   padding: 24px 24px 24px 14px;
-  line-height: 24px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -277,10 +261,8 @@ body {
 }
 
 .about-language {
-  font-weight: 500;
-  font-size: 20px;
+  font: 500 20px /24px poppins, sans-serif;
   padding: 24px 24px 24px 12px;
-  line-height: 24px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -296,29 +278,25 @@ body {
 .contact-section {
   background-image: url("../images/contact-form-shapes-mobile.png");
   background-size: cover;
-  height: 57%;
+  height: 100vh;
+  width: 100%;
   margin-top: 88px;
   border-top-left-radius: 65px;
-  background-color: #6070FF;
+  background-color: var(--btn-hover-background-color);
 }
 
 .contact-headline {
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 52px;
-  margin-bottom: 24px;
-  padding-top: 118px;
-  color: #fff;
+  font: 700 40px /52px poppins, sans-serif;
+  padding-top: 77px;
+  color: var(--primary-color);
   text-align: center;
 }
 
 .contact-writeup {
-  font-size: 20px;
-  line-height: 28px;
-  font-weight: 400;
+  font: 400 20px /28px poppins, sans-serif;
   margin-bottom: 16px;
   padding: 12px;
-  color: #ebebff;
+  color: var(--workslink-background-color);
   text-align: center;
 }
 
@@ -335,7 +313,7 @@ body {
   height: 42%;
   padding: 12px;
   border-radius: 8px;
-  border: 1px solid #fff;
+  border: 1px solid var(--primary-color);
 }
 
 .contact-text {
@@ -343,10 +321,7 @@ body {
 }
 
 .contact-comment-text {
-  font-family: poppins, sans-serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 24px;
+  font: 400 15px /24px poppins, sans-serif;
   padding: 12px;
   width: 100%;
   height: 150px;
@@ -354,20 +329,18 @@ body {
 }
 
 .contact-btn {
-  font-size: 17px;
-  font-weight: 500;
+  font: 500 17px /24px poppins, sans-serif;
   padding: 10px 16px;
   border-radius: 8px;
-  line-height: 24px;
   border-width: thin;
   border-color: var(--btn-color);
   background-color: var(--primary-color);
-  color: #6070ff;
+  color: var(--btn-hover-background-color);
 }
 
 .contact-btn:hover {
   color: var(--primary-color);
-  background-color: #6070ff;
+  background-color: var(--btn-hover-background-color);
   box-shadow: 0 8px 16px var(--btn-hover-box-shadow);
 }
 
