@@ -102,7 +102,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 65%;
+  width: 50%;
 }
 
 .works-list {
@@ -110,12 +110,13 @@ body {
 }
 
 .about-link {
+  font: 400 16px /24px poppins, sans-serif;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 65%;
+  width: 45%;
 }
 
 .about-icons {
@@ -124,7 +125,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 74%;
+  width: 65%;
 }
 
 .works-img {
