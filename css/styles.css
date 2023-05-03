@@ -457,8 +457,8 @@ body {
     display: block;
   }
 
-  .works-img {
-    margin: 8px;
+  .works-article.order {
+    order: -1;
   }
 
   .about-link {
@@ -477,7 +477,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 65%;
+    width: 77%;
   }
 
   .content {
