@@ -44,6 +44,14 @@ body {
 .logo {
   font: 700 22px poppins, sans-serif;
   color: var(--logo-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-layout {
+  margin: auto;
+  width: 97%;
 }
 
 .hero-section {
@@ -144,10 +152,6 @@ body {
 
 .works-img {
   width: 100%;
-}
-
-.image {
-  display: none;
 }
 
 .content {
@@ -378,24 +382,6 @@ body {
   width: 32%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (width >= 768px) {
   .nav-bar {
     position: fixed;
@@ -406,7 +392,7 @@ body {
   }
 
   .nav-layout {
-    width: 75%;
+    width: 76%;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -437,6 +423,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: calc(100vh - 65px);
+  }
+
+  .image {
+    display: none;
   }
 
   .headline {
@@ -478,20 +468,18 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 45rem;
+    padding: 32px;
+    margin-bottom: 12rem;
   }
 
   .works-headline {
-    font: 700 32px /44px poppins, sans-serif;
+    font: 700 60px /44px poppins, sans-serif;
     margin-bottom: 10px;
   }
 
   .about-icon {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 38%;
+    width: 60%;
   }
 
   .works-list {
@@ -503,26 +491,18 @@ body {
   }
 
   .about-link {
-    font: 400 16px /24px poppins, sans-serif;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 35%;
+    font: 400 20px /24px poppins, sans-serif;
+    width: 38%;
+    margin-bottom: 24px;
   }
 
   .about-icons {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     width: 77%;
   }
 
   .content {
-    font: 600 13px /16px poppins, sans-serif;
+    font: 600 23px /16px poppins, sans-serif;
+    margin: 18px 0;
   }
 
   .dot {
@@ -532,8 +512,9 @@ body {
   }
 
   .works-writeup {
-    font: 400 15px poppins, sans-serif;
+    font: 400 28px poppins, sans-serif;
     padding: 24px 4px;
+    margin-bottom: 8px;
   }
 
   .works-link {
@@ -541,6 +522,11 @@ body {
     padding: 2px 8px;
     text-decoration: none;
     color: var(--logo-color);
+  }
+
+  .works-img {
+    height: 41rem;
+    width: unset;
   }
 
   .social-icons {
@@ -553,11 +539,8 @@ body {
   }
 
   .btn {
-    font: 500 17px /24px poppins, sans-serif;
-    padding: 10px 16px;
-    border-radius: 8px;
-    margin-top: 22px;
-    border-width: thin;
+    font: 500 24px /24px poppins, sans-serif;
+    padding: 14px 16px;
   }
 
   .abt-semi-section {
@@ -565,8 +548,8 @@ body {
     flex-direction: row;
     height: calc(60vh);
     margin: auto;
-    width: 77%;
-    margin-top: 65px;
+    width: 80%;
+    padding-top: 5rem;
   }
 
   .about-headline {
@@ -611,7 +594,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 12%;
+    width: 16%;
     height: 7rem;
   }
 
@@ -622,7 +605,9 @@ body {
   }
 
   .abt-link {
-    width: 55%;
+    font: 400 24px /24px poppins, sans-serif;
+    width: 72%;
+    margin-bottom: 32px;
   }
 
   .about-lang {
@@ -635,26 +620,32 @@ body {
 
   .contact-section {
     background-image: url('../images/contact_form_background_shapes-desktop.png');
-    background-size: contain;
+    background-size: cover;
     text-align: center;
     height: calc(100vh - 80px);
+    padding-top: 8rem;
   }
 
   .contact-writeup {
-    width: 35%;
+    width: 30%;
     padding: 12px;
     margin: auto;
     text-align: center;
   }
 
+  .contact-group {
+    margin: 0 auto 24px;
+  }
+
   .contact-control {
-    width: 30%;
+    width: 25%;
     border-radius: 0;
   }
 
   .contact-comment-text {
     font: 400 15px /24px poppins, sans-serif;
-    width: 30%;
+    width: 25%;
     border-radius: 0;
+    margin-bottom: 24px;
   }
 }
