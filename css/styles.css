@@ -403,7 +403,7 @@ body {
     list-style: none;
     display: flex;
     flex-direction: row;
-    color: #344563;
+    color: var(--content-hover-color);
     font: 500 15px /20px poppins, sans-serif;
   }
 
