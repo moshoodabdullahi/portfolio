@@ -419,7 +419,7 @@ body {
 
   .hero-section {
     background-image: url('../images/Header-image.png');
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: calc(100vh - 65px);
@@ -436,7 +436,7 @@ body {
   .hero-headline {
     width: 60%;
     margin: auto;
-    padding-top: 199px;
+    padding-top: 55px;
   }
 
   .writeup {
@@ -462,24 +462,25 @@ body {
 
   .works-article {
     padding: 32px;
+    width: 50%;
   }
 
   .work {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 45rem;
+    height: 50%;
     padding: 32px;
     margin-bottom: 12rem;
   }
 
   .works-headline {
-    font: 700 60px /44px poppins, sans-serif;
-    margin-bottom: 10px;
+    font: 700 40px /52px poppins, sans-serif;
+    margin: 0;
   }
 
   .about-icon {
-    width: 60%;
+    width: 77%;
   }
 
   .works-list {
@@ -491,9 +492,8 @@ body {
   }
 
   .about-link {
-    font: 400 20px /24px poppins, sans-serif;
-    width: 38%;
-    margin-bottom: 24px;
+    font: 500 12px /16px poppins, sans-serif;
+    width: 45%;
   }
 
   .about-icons {
@@ -501,7 +501,7 @@ body {
   }
 
   .content {
-    font: 600 23px /16px poppins, sans-serif;
+    font: 500 18px /24px poppins, sans-serif;
     margin: 18px 0;
   }
 
@@ -512,9 +512,9 @@ body {
   }
 
   .works-writeup {
-    font: 400 28px poppins, sans-serif;
-    padding: 24px 4px;
-    margin-bottom: 8px;
+    font: 400 16px /24px poppins, sans-serif;
+    padding: 12px 4px;
+    margin-bottom: 15px;
   }
 
   .works-link {
@@ -525,8 +525,8 @@ body {
   }
 
   .works-img {
-    height: 41rem;
-    width: unset;
+    height: 100%;
+    width: 100%;
   }
 
   .social-icons {
@@ -539,14 +539,14 @@ body {
   }
 
   .btn {
-    font: 500 24px /24px poppins, sans-serif;
-    padding: 14px 16px;
+    font: 500 17px /24px poppins, sans-serif;
+    padding: 8px 12px;
   }
 
   .abt-semi-section {
     display: flex;
     flex-direction: row;
-    height: calc(60vh);
+    height: calc(100vh - 120px);
     margin: auto;
     width: 80%;
     padding-top: 5rem;
@@ -556,8 +556,6 @@ body {
     width: 50%;
     font: 700 40px poppins, sans-serif;
     padding: 0 24px;
-    margin-bottom: 24px;
-    padding-top: 36px;
   }
 
   .abt-semi-headline {
@@ -594,7 +592,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 16%;
+    width: 20%;
     height: 7rem;
   }
 
@@ -605,9 +603,8 @@ body {
   }
 
   .abt-link {
-    font: 400 24px /24px poppins, sans-serif;
-    width: 72%;
-    margin-bottom: 32px;
+    font: 500 12px /16px poppins, sans-serif;
+    width: 65%;
   }
 
   .about-lang {
@@ -622,12 +619,11 @@ body {
     background-image: url('../images/contact_form_background_shapes-desktop.png');
     background-size: cover;
     text-align: center;
-    height: calc(100vh - 80px);
-    padding-top: 8rem;
+    height: calc(100vh);
   }
 
   .contact-writeup {
-    width: 30%;
+    width: 32%;
     padding: 12px;
     margin: auto;
     text-align: center;
@@ -638,14 +634,16 @@ body {
   }
 
   .contact-control {
-    width: 25%;
+    width: 30%;
     border-radius: 0;
+    outline: none;
   }
 
   .contact-comment-text {
     font: 400 15px /24px poppins, sans-serif;
-    width: 25%;
+    width: 30%;
     border-radius: 0;
-    margin-bottom: 24px;
+    outline: none;
+    margin-bottom: 12px;
   }
 }
