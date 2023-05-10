@@ -503,9 +503,9 @@ body {
     width: 77%;
   }
 
- .about-icon-logo {
-  margin-right: 8px;
- }
+  .about-icon-logo {
+    margin-right: 8px;
+  }
 
   .content {
     font: 500 18px /24px poppins, sans-serif;
@@ -554,7 +554,7 @@ body {
   }
 
   .social-icon-logo {
-     margin-right: 8px;
+    margin-right: 8px;
   }
 
   .btn {
@@ -653,7 +653,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
-    height: calc(100vh);
+    height: calc(100vh - 10px);
   }
 
   .contact-writeup {
