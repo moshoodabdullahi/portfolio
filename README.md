@@ -16,9 +16,6 @@
   - [Prettier](https://prettier.io/),
   - [Stylelint](https://stylelint.io/).
 - GitHub Action
-  - [Setup and mobile version skeleton](https://github.com/bolah2009/curriculum-html-css/blob/main/portfolio/1_setup.md)
-  - [Mobile Version](https://github.com/bolah2009/curriculum-html-css/blob/main/portfolio/2_mobile.md)
-  - [Contact Form]
 - Acknowledgment
   - [Portfolio-project Figma Design](https://www.figma.com/file/LKueaSlr8Kc2yMKeZkKgtm/portfolio_project?node-id=0-1&t=832EHDclWuSK5XPh-0)
 
