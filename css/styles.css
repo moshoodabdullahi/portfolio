@@ -55,13 +55,10 @@ body {
 }
 
 .hero-section {
-  background: var(--primary-color) url('../images/header-shapes-mobile.png') cover;
-  background-image: url('../images/header-shapes-mobile.png');
-  background-size: cover;
+  background: center/100% no-repeat var(--primary-color) url('../images/header-shapes-mobile.png');
   padding: 0 24px 24px;
   height: 578px;
   border-bottom-left-radius: 65px;
-  background-color: var(--primary-color);
 }
 
 .headline {
@@ -115,7 +112,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
 }
 
 .works-list {
@@ -139,7 +135,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 82%;
 }
 
 .about-icons {
@@ -299,13 +294,11 @@ body {
 }
 
 .contact-section {
-  background-image: url('../images/contact-form-shapes-mobile.png');
-  background-size: cover;
+  background: center/100% no-repeat var(--btn-hover-background-color) url('../images/contact-form-shapes-mobile.png');
   height: 100vh;
   width: 100%;
   margin-top: 88px;
   border-top-left-radius: 65px;
-  background-color: var(--btn-hover-background-color);
 }
 
 .contact-headline {
@@ -419,9 +412,7 @@ body {
   }
 
   .hero-section {
-    background-image: url('../images/Header-image.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background: center/100% no-repeat #fff url('../images/Header-image.png');
     height: calc(100vh - 65px);
     margin-top: 72px;
   }
@@ -462,8 +453,11 @@ body {
   }
 
   .works-article {
-    padding: 32px;
     width: 50%;
+  }
+
+  .img-profile {
+    width: 45%;
   }
 
   .work {
@@ -471,7 +465,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     height: 50%;
-    padding: 32px;
+    padding: 24px;
     margin-bottom: 12rem;
   }
 
@@ -494,8 +488,8 @@ body {
   }
 
   .about-icon {
+    padding-top: 12px;
     justify-content: flex-start;
-    width: 60%;
   }
 
   .about-icons {
@@ -510,6 +504,7 @@ body {
   .content {
     font: 500 18px /24px poppins, sans-serif;
     margin-right: 8px;
+    cursor: pointer;
   }
 
   .dot {
@@ -521,7 +516,7 @@ body {
 
   .works-writeup {
     font: 400 16px /24px poppins, sans-serif;
-    padding: 12px 4px;
+    padding: 32px 0 12px;
     margin-bottom: 15px;
   }
 
@@ -564,7 +559,7 @@ body {
 
   .button {
     font: 500 17px /24px poppins, sans-serif;
-    padding: 4px 12px;
+    padding: 11px 22px;
     border-radius: 8px;
     margin-top: 22px;
     border-width: thin;
@@ -608,6 +603,7 @@ body {
 
   .abt-social-section {
     padding: 0 24px;
+    width: 100%;
   }
 
   .abt-social-headline {
@@ -649,22 +645,17 @@ body {
   }
 
   .contact-section {
-    background-image: url('../images/contact_form_background_shapes-desktop.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background: center/90% no-repeat #6070FF url('../images/contact_form_background_shapes-desktop.png');
     text-align: center;
     height: calc(100vh - 10px);
+    margin-top: 72px;
   }
 
   .contact-writeup {
-    width: 32%;
+    width: 45%;
     padding: 12px;
     margin: auto;
     text-align: center;
-  }
-
-  .contact-group {
-    margin: 0 auto 24px;
   }
 
   .contact-control {
@@ -678,7 +669,6 @@ body {
     width: 30%;
     border-radius: 0;
     outline: none;
-    margin-bottom: 12px;
   }
 
   ::placeholder {
