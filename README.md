@@ -1,7 +1,6 @@
 [![GitHub Pages Deployment](https://github.com/moshoodabdullahi/portfolio/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/moshoodabdullahi/portfolio/actions/workflows/pages/pages-build-deployment)
 [![Linter Checks](https://github.com/moshoodabdullahi/portfolio/actions/workflows/linter.yml/badge.svg)](https://github.com/moshoodabdullahi/portfolio/actions/workflows/linter.yml)
 
-
 # PORTFOLIO
 
 > A portfolio website is one of the most powerful tools in software developer toolbox, replicating one of the portfolio templates in Figma design.
@@ -28,7 +27,6 @@
 [Netlify Demo Link](https://dema-portfolio.netlify.app/)
 
 [GitHub Page Demo Link](https://moshoodabdullahi.github.io/portfolio/)
-
 
 ### Development (Running locally)
 
