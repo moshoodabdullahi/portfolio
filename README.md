@@ -112,7 +112,7 @@ Give a ⭐️ if you like this project!
 - Color contrast (Issues Fixed) - The color contrast aid visibility because some people cannot read text if there is not sufficient contrast between the text and background Some people cannot read text if there is not sufficient contrast between the text and background, High contrast is required by some people with visual impairments, including many older people who lose contrast sensitivity from ageing, But at the same time While some people need high contrast, for others — including some people with reading disabilities such as dyslexia — bright colors (high luminance) are not readable. They need low luminance. For example I increase the contrast of Let's Connect from 2.31 ratio to 4.50 ratio to increase it's visibility, I didn't fix the contrast of Canopy, Back End Dev and 2015 becaude of it's hover effect, And also i couldn't increase the contrast of contact article because increasing the contrast will change the website style completely, so no changes was make to the contact article.
 
 - Resize
-- Interaction (No issues found) 
+- Interaction (No issues found)
 - Moving content (No issues found)
 - Multimedia (No issues found)
 - The basic structure of the page
