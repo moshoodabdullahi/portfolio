@@ -3,7 +3,6 @@
     "name": "local",
     "options": {
       "pattern": [
-        "**",
         "!.git/**",
         "!node_modules/**"
       ]
@@ -14,14 +13,5 @@
   ],
   "formatters": [
     "stylish"
-  ],
-  "hints": {
-    "axe/name-role-value": [
-      "default",
-      {
-        "link-name": "off"
-      }
-    ],
-    "button-type": "off"
-  }
+  ]
 }

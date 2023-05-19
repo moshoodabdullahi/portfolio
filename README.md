@@ -100,3 +100,19 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 [MIT licensed](./LICENSE).
+
+## List of Points Checked
+
+- Page titles (Issues Fixed) - This project title was changed to be able to distinguish between different website and to give additional explanation on your website. It is also shown in browsers' tabs when there are multiple web pages open. The page title was changed from "Portfolio" to "Abdullahi Porfolio", So as to identify it among multiple web pages.
+
+- Image text alternatives(<img alt="alt text">) - (issues fixed) - The image text alternatives known as (img alt attribute) convey the purpose of an image, including pictures, illustrations, charts etc. It serves as an helping aid to people who are blind and use screen readers can hear the alt text read out. some changes were make to the img alt texts, But ther are different categories of alt attributes For example I change custom menu to menu because its a decorative, I change profile to screenshot of tonic by giving it a more meaningful explanation through alt attributes.
+
+- Text headings (No Issues Found) - Web pages often have sections of information separated by visual headings, for example, heading text is bigger and bold (like "Headings" right above this sentence). To make these work for everyone, the headings need to be marked up. That way people can navigate to the headings — including people who cannot use a mouse and use only the keyboard, and people who use a screen reader. I found no issue in this aspect because firstly all text that looks like a heading is marked up as a heading, the heading hierarchy is also meaningful and didn't skip levels.
+
+- Color contrast (Issues Fixed) - The color contrast aid visibility because some people cannot read text if there is not sufficient contrast between the text and background Some people cannot read text if there is not sufficient contrast between the text and background, High contrast is required by some people with visual impairments, including many older people who lose contrast sensitivity from ageing, But at the same time While some people need high contrast, for others — including some people with reading disabilities such as dyslexia — bright colors (high luminance) are not readable. They need low luminance. For example I increase the contrast of Let's Connect from 2.31 ratio to 4.50 ratio to increase it's visibility, I didn't fix the contrast of Canopy, Back End Dev and 2015 becaude of it's hover effect, And also i couldn't increase the contrast of contact article because increasing the contrast will change the website style completely, so no changes was make to the contact article.
+
+- Resize
+- Interaction (No issues found) 
+- Moving content (No issues found)
+- Multimedia (No issues found)
+- The basic structure of the page
