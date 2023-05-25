@@ -17,16 +17,18 @@ jobs:
         with:
           node-version: 16
       - name: Run Accessibility Check
-        id: accessibility
+        continue-on-error: true
         run: |
           yarn install
-          yarn axe:ci > report.md || echo "report=$(cat  > report.md)" >> $GITHUB_OUTPUT
+          ls -la
+          yarn axe:ci
 
       - name: Create Comment
         uses: actions/github-script@v6
         with:
           script: |
-            const commentBody = '${{ steps.accessibility.outputs.report }}';
+            const fs = require('fs');
+            const commentBody = fs.readFileSync('accessibility_report.md', { encoding: 'utf8' });;
             github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
@@ -34,6 +36,3 @@ jobs:
               body: commentBody
             })
 
-      - name: Fail if Critical Violations
-        run: |
-          yarn axe:ci

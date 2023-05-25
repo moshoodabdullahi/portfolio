@@ -33,15 +33,15 @@ async function runAccessibilityCheck() {
       report += '\n\n';
 
       if (violation.impact === 'critical') {
-        console.error('Critical accessibility violations found.');
+        console.log('Critical accessibility violations found.');
         process.exitCode = 1; // Set exit code to indicate failure
       }
     }
 
+    fs.writeFileSync('accessibility_report.md', report, 'utf8');
     if (process.argv.includes('ci')) {
       console.log(report); // Output report directly for CI
     } else {
-      fs.writeFileSync('accessibility_report.md', report, 'utf8');
       console.log('Accessibility report generated.');
     }
   }
