@@ -4,8 +4,11 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
+    "axe-core": "^4.7.1",
+    "axe-puppeteer": "^1.1.1",
     "hint": "^7.1.8",
     "prettier": "2.8.8",
+    "puppeteer": "^20.4.0",
     "stylelint": "^15.6.0",
     "stylelint-config-recommended": "^12.0.0",
     "stylelint-config-standard": "^33.0.0"
@@ -15,6 +18,8 @@
     "format:check": "prettier  --check \"**/*.{html,js,json,md,yml}\"",
     "lint": "stylelint \"**/*.css\" --fix",
     "lint:check": "stylelint \"**/*.css\"",
-    "hint": "hint --telemetry=off ."
+    "hint": "hint --telemetry=off .",
+    "axe": "node axe-check.js",
+    "axe:ci": "node axe-check.js ci"
   }
 }

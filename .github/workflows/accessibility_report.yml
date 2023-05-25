@@ -1,0 +1,42 @@
+name: Accessibility Check
+
+on: pull_request
+
+jobs:
+  accessibility-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+      - name: Set up Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Run Accessibility Check
+        id: accessibility
+        run: |
+          yarn install
+          echo "report=$(yarn axe:ci)" >> $GITHUB_OUTPUT
+
+      - name: Create Comment
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const commentBody = '${{ steps.accessibility.outputs.report }}';
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: commentBody
+            })
+
+      - name: Fail if Critical Violations
+        run: |
+          exitCode=$(grep -c "Impact: critical" accessibility_report.md)
+          if [[ $exitCode -gt 0 ]]; then
+            echo "Critical accessibility violations found. Failing the build."
+            exit 1
+          else
+            echo "No critical accessibility violations found."
+          fi
