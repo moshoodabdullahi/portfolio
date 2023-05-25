@@ -6,6 +6,9 @@ jobs:
   accessibility-check:
     runs-on: ubuntu-latest
 
+    permissions:
+      pull-requests: write
+
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
@@ -17,7 +20,7 @@ jobs:
         id: accessibility
         run: |
           yarn install
-          echo "report=$(yarn axe:ci)" >> $GITHUB_OUTPUT
+          yarn axe:ci > report.md || echo "report=$(cat  > report.md)" >> $GITHUB_OUTPUT
 
       - name: Create Comment
         uses: actions/github-script@v6
@@ -33,10 +36,4 @@ jobs:
 
       - name: Fail if Critical Violations
         run: |
-          exitCode=$(grep -c "Impact: critical" accessibility_report.md)
-          if [[ $exitCode -gt 0 ]]; then
-            echo "Critical accessibility violations found. Failing the build."
-            exit 1
-          else
-            echo "No critical accessibility violations found."
-          fi
+          yarn axe:ci
