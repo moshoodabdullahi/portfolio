@@ -7,12 +7,12 @@ async function runAccessibilityCheck() {
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
   const filePath = path.join(__dirname, 'index.html');
-  const fileUrl = 'file://' + filePath;
+  const fileUrl = `file://${filePath}`;
   await page.goto(fileUrl);
   const results = await new AxePuppeteer(page).analyze();
   await browser.close();
 
-  const violations = results.violations;
+  const { violations } = results;
 
   if (violations.length === 0) {
     console.log('No accessibility violations found.');
@@ -24,26 +24,24 @@ async function runAccessibilityCheck() {
       report += `[${violation.help}](${violation.helpUrl})\n\n`;
       report += `- Impact: ${violation.impact}\n\n`;
       report += `- Tags: ${violation.tags.map((tag) => `\`${tag}\``).join(', ')}\n\n`;
-      report += '- Nodes:\n\n';
+      let nodes = '';
       for (const node of violation.nodes) {
-        report += `   1. *Node:* \`${node.html}\`, *Impact:* ${
+        nodes += `   1. **Node:** \`${node.html}\`, **Impact:** ${
           node.impact
         }\n\n       ${node.failureSummary.split('\n  ').join('\n\n      - ')}\n\n`;
       }
-      report += '\n\n';
+      report += `<details><summary>Click here for detailed report</summary>\n\n`;
+      report += nodes;
+      report += '</details>\n\n';
 
       if (violation.impact === 'critical') {
-        console.log('Critical accessibility violations found.');
+        console.error('Critical accessibility violations found.');
         process.exitCode = 1; // Set exit code to indicate failure
       }
     }
 
     fs.writeFileSync('accessibility_report.md', report, 'utf8');
-    if (process.argv.includes('ci')) {
-      console.log(report); // Output report directly for CI
-    } else {
-      console.log('Accessibility report generated.');
-    }
+    console.log('Accessibility report generated.');
   }
 }
 
