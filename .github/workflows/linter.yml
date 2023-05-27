@@ -1,6 +1,11 @@
 name: Checks
 
-on: [pull_request, push]
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  pull_request:
 
 jobs:
   prettier:
@@ -61,9 +66,6 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request'
 
-    permissions:
-      pull-requests: write
-
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
@@ -78,17 +80,34 @@ jobs:
         run: |
           yarn install
           yarn axe
-
-      - name: Create Comment
-        uses: actions/github-script@v6
+      - name: Create or Update Comment
         if: success() || failure()
+        id: create-update-comment
+        uses: actions/github-script@v6
         with:
           script: |
-            const fs = require('fs');
-            const commentBody = fs.readFileSync('accessibility_report.md', { encoding: 'utf8' });
-            github.rest.issues.createComment({
+            const { data: comments } = await github.rest.issues.listComments({
               issue_number: context.issue.number,
               owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: commentBody
-            })
+              repo: context.repo.repo
+            });
+            const existingComment = comments.find(comment => comment.user.login === 'github-actions[bot]');
+            console.log({existingComment});
+            const fs = require('fs');
+            const commentBody = fs.readFileSync('accessibility_report.md', { encoding: 'utf8' });
+            const commentId = existingComment ? existingComment.id : null;
+            if (commentId) {
+              github.rest.issues.updateComment({
+                comment_id: commentId,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: commentBody
+              });
+            } else {
+              github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: commentBody
+              });
+            }
