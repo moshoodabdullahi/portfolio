@@ -28,20 +28,19 @@ async function runAccessibilityCheck() {
       report += `- Tags: ${violation.tags.map((tag) => `\`${tag}\``).join(', ')}\n\n`;
       let nodes = '';
       for (const node of violation.nodes) {
-        nodes += `   1. **Node:** \`${node.html}\`, **Impact:** ${
-          node.impact
-        }\n\n       ${node.failureSummary.split('\n  ').join('\n\n      - ')}\n\n`;
+        nodes += `   1. **Node:** \`${node.html}\`, **Impact:** ${node.impact
+          }\n\n       ${node.failureSummary.split('\n  ').join('\n\n      - ')}\n\n`;
       }
       report += `<details><summary>Click here for detailed report</summary>\n\n`;
       report += nodes;
       report += '</details>\n\n';
 
       if (violation.impact === 'critical') {
-        report += '\n\n## ❌ Critical accessibility violations found.\n\nSee comments above.';
+        report += '\n\n### ❌ Critical accessibility violations found.\n\nSee comments above.\n\n';
         console.error('Critical accessibility violations found.');
         process.exitCode = 1; // Set exit code to indicate failure
       } else {
-        report += '\n\n## ✅ No critical accessibility violations found.\n\n';
+        report += '\n\n### ✅ No critical accessibility violations found.\n\n';
       }
     }
 
