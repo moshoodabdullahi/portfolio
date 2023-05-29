@@ -28,8 +28,9 @@ async function runAccessibilityCheck() {
       report += `- Tags: ${violation.tags.map((tag) => `\`${tag}\``).join(', ')}\n\n`;
       let nodes = '';
       for (const node of violation.nodes) {
-        nodes += `   1. **Node:** \`${node.html}\`, **Impact:** ${node.impact
-          }\n\n       ${node.failureSummary.split('\n  ').join('\n\n      - ')}\n\n`;
+        nodes += `   1. **Node:** \`${node.html}\`, **Impact:** ${
+          node.impact
+        }\n\n       ${node.failureSummary.split('\n  ').join('\n\n      - ')}\n\n`;
       }
       report += `<details><summary>Click here for detailed report</summary>\n\n`;
       report += nodes;
