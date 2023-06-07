@@ -88,10 +88,6 @@ Feel free to check the [issues page](../../issues).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- [Portfolio-project Figma Design](https://www.figma.com/file/LKueaSlr8Kc2yMKeZkKgtm/portfolio_project?node-id=0-1&t=832EHDclWuSK5XPh-0)
-
 ## 📝 License
 
 [MIT licensed](./LICENSE).
