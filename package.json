@@ -1,20 +1,27 @@
 {
-  "name": "html-css-template",
-  "version": "0.1.0",
+  "name": "portfolio",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "hint": "^7.1.8",
+    "axe-core": "^4.7.2",
+    "axe-puppeteer": "^1.1.1",
+    "htmlhint": "^1.1.4",
     "prettier": "2.8.8",
-    "stylelint": "^15.6.0",
+    "puppeteer": "^20.4.0",
+    "stylelint": "^15.6.2",
+    "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-recommended": "^12.0.0",
-    "stylelint-config-standard": "^33.0.0"
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-csstree-validator": "^2.1.0",
+    "stylelint-prettier": "^3.0.0"
   },
   "scripts": {
     "format": "prettier  --write \"**/*.{html,js,json,md,yml}\"",
     "format:check": "prettier  --check \"**/*.{html,js,json,md,yml}\"",
     "lint": "stylelint \"**/*.css\" --fix",
     "lint:check": "stylelint \"**/*.css\"",
-    "hint": "hint --telemetry=off ."
+    "axe": "node axe-check.js",
+    "lint:html": "htmlhint ."
   }
 }
