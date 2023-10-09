@@ -30,8 +30,8 @@ const contactMenu = () => {
   displayMenuImage.classList.replace('d-block', 'd-none');
 };
 
-openMenuImage.addEventListener('click', openMenu);
 closeMenuImage.addEventListener('click', closeMenu);
+openMenuImage.addEventListener('click', openMenu);
 portfolioMenuElement.addEventListener('click', portfolioMenu);
 aboutMenuElement.addEventListener('click', aboutMenu);
 contactMenuElement.addEventListener('click', contactMenu);
