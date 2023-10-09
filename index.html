@@ -4,20 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abdullahi Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
 
   <body>
     <nav class="nav-bar">
       <div class="nav-layout">
         <div class="logo">
-          My Logo <img class="image" src="images/menu-custom.png" alt="Menu" />
+          My Logo
+          <span class="logo-wrapper d-flex" id="open-menu-image"
+            ><img class="image" src="images/menu-custom.png" alt="Menu" />
+          </span>
         </div>
-        <ul class="header-link">
-          <li><a class="dropdown-link" href="#portfolio">Portfolio</a></li>
-          <li><a class="dropdown-link" href="#about">About</a></li>
-          <li><a class="dropdown-link" href="#contact">Contact</a></li>
-        </ul>
+        <div class="navbar-menu display-menu d-none" id="display-menu-image">
+          <span class="close-image d-flex" id="close-menu-image">X</span>
+          <ul class="navbar-menu-ul ul header-link flex">
+            <li class="navbar-menu-li menu-link">
+              <a
+                href="#portfolio"
+                class="navbar-menu-link dropdown-link"
+                id="portfolio-menu-element"
+                >Portfolio</a
+              >
+            </li>
+            <li class="navbar-menu-li menu-link">
+              <a href="#about" class="navbar-menu-link dropdown-link" id="about-menu-element"
+                >About</a
+              >
+            </li>
+            <li class="navbar-menu-li menu-link">
+              <a href="#contact" class="navbar-menu-link dropdown-link" id="contact-menu-element"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -25,7 +46,7 @@
       <div class="hero-headline">
         <h1 class="headline">
           I'm Abdullahi <br />
-          Glad to see you!
+          Glad to see <br />you!
         </h1>
         <p class="writeup">
           I'm a software developer! I can help you build a product, feature or website look through
@@ -145,7 +166,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="portfolio">
       <ul class="works">
         <li class="work">
           <div class="img-profile">
@@ -170,10 +191,11 @@
               A daily selection of privately personalized reads; no accounts or sign-up required.
             </p>
 
-            <ul class="about-link">
-              <li><a class="work-link" href="">html</a></li>
-              <li><a class="work-link" href="">css</a></li>
-              <li><a class="work-link" href="">javascript</a></li>
+            <ul class="abt-link">
+              <li><a class="works-link" href="">html</a></li>
+              <li><a class="works-link" href="">Ruby on rails</a></li>
+              <li><a class="works-link" href="">css</a></li>
+              <li><a class="works-link" href="">javascript</a></li>
             </ul>
 
             <button class="btn">See Project</button>
@@ -404,7 +426,7 @@
               </li>
             </ul>
 
-            <button class="button">Get my resume</button>
+            <button class="resume-button">Get my resume</button>
           </section>
         </div>
 
@@ -549,5 +571,6 @@
         </form>
       </section>
     </section>
+    <script src="js/index.js"></script>
   </body>
 </html>
