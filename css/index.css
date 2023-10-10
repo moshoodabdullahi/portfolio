@@ -59,6 +59,10 @@ body {
   color: #fff;
 }
 
+.navbar-menu-li a:hover {
+  font-size: 38px;
+}
+
 .navbar-menu-li a:active {
   cursor: pointer;
   color: rgba(0, 0, 0, 0.5);
@@ -116,6 +120,7 @@ body {
 }
 
 .image:hover {
+  font-size: 80px;
   cursor: pointer;
 }
 
@@ -133,10 +138,14 @@ body {
   color: #fff;
   font-weight: 700;
   font-family: Roboto, sans-serif;
-  cursor: pointer;
   position: absolute;
   top: 11px;
   right: 35px;
+}
+
+.close-image:hover {
+  font-size: 35px;
+  cursor: pointer;
 }
 
 .close-image:active {
