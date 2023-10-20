@@ -500,7 +500,7 @@ textarea:focus {
 }
 
 .mobile-navbar {
-  color: var(--textarea-border-color);
+  /* color: var(--textarea-border-color); */
   font-size: 45px;
 }
 
@@ -514,6 +514,7 @@ textarea:focus {
   }
 
   .mobile-menu-navbar {
+    color: var(--textarea-border-color);
     display: flex;
   }
 
@@ -526,12 +527,17 @@ textarea:focus {
     list-style: none;
   }
 
+  .mobile-navbar:hover {
+    color: #000;
+  }
+
   .mobile-navbar a {
     text-decoration: none;
+    color: var(--textarea-border-color);
   }
 
   .mobile-navbar a:active {
-    color: var(--textarea-border-color);
+    color: var(--btn-hover-box-shadow);
   }
 
   .navbar-menu {
