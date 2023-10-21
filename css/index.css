@@ -35,6 +35,10 @@ body {
   background-color: var(--body-background-color);
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .navbar-menu {
   opacity: 0;
   width: 100%;
@@ -51,19 +55,32 @@ body {
   flex-direction: column;
 }
 
+.navbar-background {
+  width: 100%;
+  height: calc(100vh - 75vh);
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .navbar-menu-li {
   margin-bottom: 40px;
 }
 
 .navbar-menu-li a {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 44px;
+  text-decoration: none;
   color: var(--primary-color);
+  width: 100%;
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .navbar-menu-li a:hover {
-  font-size: 38px;
+  cursor: pointer;
+  color: rgb(128 255 0);
+  background-color: #5c5f64;
 }
 
 .navbar-menu-li a:active {
@@ -101,12 +118,13 @@ body {
   background-color: var(--primary-color);
 }
 
-.logo {
-  font: 700 22px poppins, sans-serif;
+.nav-container {
+  font: 700 18px poppins, sans-serif;
   color: var(--logo-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 8px;
 }
 
 .menu-link {
@@ -116,15 +134,17 @@ body {
   text-decoration: none;
   margin-bottom: 8px;
   font-family: Roboto, sans-serif;
+  width: 100%;
 }
 
-.image {
+.menu-open-icon {
   display: flex;
 }
 
-.image:hover {
-  font-size: 80px;
+.menu-open-icon:hover {
   cursor: pointer;
+  transform: scale(1.4);
+  transition-duration: 0.4s;
 }
 
 .dropdown-link {
@@ -148,6 +168,8 @@ body {
 .close-image:hover {
   font-size: 28px;
   cursor: pointer;
+  transform: scale(1.4);
+  transition-duration: 0.4s;
 }
 
 .close-image:active {
@@ -500,7 +522,6 @@ textarea:focus {
 }
 
 .mobile-navbar {
-  /* color: var(--textarea-border-color); */
   font-size: 45px;
 }
 
@@ -575,7 +596,7 @@ textarea:focus {
     font: 600 22px poppins, sans-serif;
   }
 
-  .logo {
+  .nav-container {
     font: 700 18px poppins, sans-serif;
   }
 
@@ -585,7 +606,7 @@ textarea:focus {
     margin-top: 72px;
   }
 
-  .image {
+  .menu-open-icon {
     display: none;
   }
 
