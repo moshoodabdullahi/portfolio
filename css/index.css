@@ -58,10 +58,6 @@ button:hover {
 .navbar-background {
   width: 100%;
   height: calc(100vh - 75vh);
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .navbar-menu-li {
@@ -69,9 +65,7 @@ button:hover {
 }
 
 .navbar-menu-li a {
-  text-decoration: none;
   color: var(--primary-color);
-  width: 100%;
   display: block;
   font-size: 30px;
   font-weight: 600;
@@ -80,7 +74,7 @@ button:hover {
 .navbar-menu-li a:hover {
   cursor: pointer;
   color: rgb(128 255 0);
-  background-color: #5c5f64;
+  background-color: #757980;
 }
 
 .navbar-menu-li a:active {
@@ -88,14 +82,12 @@ button:hover {
   color: var(--navbar-menu-li-color);
 }
 
-.d-none {
-  display: none;
+.social-icon-svg {
+  fill: #505f79;
 }
 
-.d-block {
-  display: flex;
-  opacity: 1;
-  left: 0;
+.social-icon-svg:hover {
+  fill: #0004ff;
 }
 
 .navbar {
@@ -128,13 +120,9 @@ button:hover {
 }
 
 .menu-link {
-  font-size: 22px;
-  font-weight: bolder;
   list-style: none;
-  text-decoration: none;
   margin-bottom: 8px;
   font-family: Roboto, sans-serif;
-  width: 100%;
 }
 
 .menu-open-icon {
@@ -156,10 +144,6 @@ button:hover {
 }
 
 .close-image {
-  font-size: 25px;
-  color: var(--primary-color);
-  font-weight: 700;
-  font-family: Roboto, sans-serif;
   position: absolute;
   top: 11px;
   right: 35px;
@@ -523,6 +507,16 @@ textarea:focus {
 
 .mobile-navbar {
   font-size: 45px;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: flex;
+  opacity: 1;
+  left: 0;
 }
 
 .d-flex {
