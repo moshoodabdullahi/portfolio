@@ -8,6 +8,7 @@
 
 :root {
   --primary-color: #fff;
+  --secondary-color: #000;
   --logo-color: #384bf1;
   --btn-color: #396df2;
   --headline-color: #172b4d;
@@ -29,6 +30,10 @@
   --btn-hover-box-shadow: rgba(64 83 252 24%);
   --navbar-menu-color: rgba(96 112 255 / 95%);
   --menu-container-background-color: rgba(0 46 252 0.5);
+  --navbar-menu-li-hover-color: rgb(128 255 0);
+  --navbar-menu-li-hover-background-color: #757980;
+  --nav-container-font-family: poppins, sans-serif;
+  --menu-link-font-family: roboto, sans-serif;
 }
 
 body {
@@ -64,30 +69,31 @@ button:hover {
   margin-bottom: 40px;
 }
 
-.navbar-menu-li a {
+.navbar-link {
   color: var(--primary-color);
   display: block;
   font-size: 30px;
   font-weight: 600;
+  text-decoration: none;
 }
 
-.navbar-menu-li a:hover {
+.navbar-link:hover {
   cursor: pointer;
-  color: rgb(128 255 0);
-  background-color: #757980;
+  color: var(--navbar-menu-li-hover-color);
+  background-color: var(--navbar-menu-li-hover-background-color);
 }
 
-.navbar-menu-li a:active {
+.navbar-link:active {
   cursor: pointer;
   color: var(--navbar-menu-li-color);
 }
 
 .social-icon-svg {
-  fill: #505f79;
+  fill: var(--social-icons-color);
 }
 
 .social-icon-svg:hover {
-  fill: #0004ff;
+  fill: var(--textarea-border-color);
 }
 
 .navbar {
@@ -111,7 +117,7 @@ button:hover {
 }
 
 .nav-container {
-  font: 700 18px poppins, sans-serif;
+  font: 700 18px var(--nav-container-font-family);
   color: var(--logo-color);
   display: flex;
   justify-content: space-between;
@@ -122,15 +128,15 @@ button:hover {
 .menu-link {
   list-style: none;
   margin-bottom: 8px;
-  font-family: Roboto, sans-serif;
+  font-family: var(--menu-link-font-family);
 }
 
 .menu-open-icon {
   display: flex;
+  cursor: pointer;
 }
 
 .menu-open-icon:hover {
-  cursor: pointer;
   transform: scale(1.4);
   transition-duration: 0.4s;
 }
@@ -145,13 +151,13 @@ button:hover {
 
 .close-image {
   position: absolute;
+  cursor: pointer;
   top: 11px;
   right: 35px;
 }
 
 .close-image:hover {
   font-size: 28px;
-  cursor: pointer;
   transform: scale(1.4);
   transition-duration: 0.4s;
 }
@@ -173,14 +179,14 @@ button:hover {
 }
 
 .headline {
-  font: 700 40px poppins, sans-serif;
+  font: 700 40px var(--nav-container-font-family);
   margin-bottom: 24px;
   padding-top: 36px;
   color: var(--headline-color);
 }
 
 .writeup {
-  font: 400 16px /24px poppins, sans-serif;
+  font: 400 16px /24px var(--nav-container-font-family);
   margin-bottom: 16px;
 }
 
@@ -189,7 +195,7 @@ button:hover {
 }
 
 .social-headline {
-  font: 500 24px poppins, sans-serif;
+  font: 500 24px var(--nav-container-font-family);
   color: var(--abt-social-headline-color);
   margin-bottom: 16px;
 }
@@ -213,7 +219,7 @@ button:hover {
 }
 
 .works-headline {
-  font: 700 32px /44px poppins, sans-serif;
+  font: 700 32px /44px var(--nav-container-font-family);
   margin-bottom: 10px;
 }
 
@@ -231,7 +237,7 @@ button:hover {
 }
 
 .about-link {
-  font: 400 16px /24px poppins, sans-serif;
+  font: 400 16px /24px var(--nav-container-font-family);
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -241,7 +247,7 @@ button:hover {
 }
 
 .abt-link {
-  font: 400 16px /24px poppins, sans-serif;
+  font: 400 16px /24px var(--nav-container-font-family);
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -263,7 +269,7 @@ button:hover {
 }
 
 .content {
-  font: 600 13px /16px poppins, sans-serif;
+  font: 600 13px /16px var(--nav-container-font-family);
   color: var(--content-color);
 }
 
@@ -279,7 +285,7 @@ button:hover {
 }
 
 .works-writeup {
-  font: 400 15px poppins, sans-serif;
+  font: 400 15px var(--nav-container-font-family);
   padding: 24px 4px;
   color: var(--content-hover-color);
 }
@@ -301,9 +307,13 @@ button:hover {
   width: 88%;
 }
 
+.mobile-menu-navbar {
+  display: none;
+}
+
 .resume-button,
 .btn {
-  font: 500 17px /24px poppins, sans-serif;
+  font: 500 17px /24px var(--nav-container-font-family);
   padding: 10px 16px;
   border-radius: 8px;
   margin-top: 22px;
@@ -337,7 +347,7 @@ button:hover {
 }
 
 .about-headline {
-  font: 700 40px poppins, sans-serif;
+  font: 700 40px var(--nav-container-font-family);
   padding: 0 24px;
   margin-bottom: 24px;
   padding-top: 36px;
@@ -345,7 +355,7 @@ button:hover {
 }
 
 .about-writeup {
-  font: 400 16px /24px poppins, sans-serif;
+  font: 400 16px /24px var(--nav-container-font-family);
   padding: 0 24px;
   margin-bottom: 16px;
 }
@@ -356,7 +366,7 @@ button:hover {
 }
 
 .abt-social-headline {
-  font: 500 16px poppins, sans-serif;
+  font: 500 16px var(--nav-container-font-family);
   color: var(--abt-social-headline-color);
   margin-bottom: 16px;
 }
@@ -367,7 +377,7 @@ button:hover {
 }
 
 .lang-vector {
-  font: 400 24px poppins, sans-serif;
+  font: 400 24px var(--nav-container-font-family);
   list-style: none;
   background-color: var(--vector-background-color);
   padding: 12px;
@@ -383,7 +393,7 @@ button:hover {
 }
 
 .about-lang {
-  font: 500 20px /24px poppins, sans-serif;
+  font: 500 20px /24px var(--nav-container-font-family);
   padding: 24px 24px 24px 14px;
   display: flex;
   flex-direction: row;
@@ -392,7 +402,7 @@ button:hover {
 }
 
 .about-language {
-  font: 500 20px /24px poppins, sans-serif;
+  font: 500 20px /24px var(--nav-container-font-family);
   padding: 24px 24px 24px 12px;
   display: flex;
   flex-direction: row;
@@ -416,14 +426,14 @@ button:hover {
 }
 
 .contact-headline {
-  font: 700 40px /52px poppins, sans-serif;
+  font: 700 40px /52px var(--nav-container-font-family);
   padding-top: 77px;
   color: var(--primary-color);
   text-align: center;
 }
 
 .contact-writeup {
-  font: 400 20px /28px poppins, sans-serif;
+  font: 400 20px /28px var(--nav-container-font-family);
   margin-bottom: 16px;
   padding: 12px;
   color: var(--workslink-background-color);
@@ -451,7 +461,7 @@ button:hover {
 }
 
 .contact-comment-text {
-  font: 400 15px /24px poppins, sans-serif;
+  font: 400 15px /24px var(--nav-container-font-family);
   padding: 12px;
   width: 100%;
   height: 150px;
@@ -459,7 +469,7 @@ button:hover {
 }
 
 .contact-btn {
-  font: 500 17px /24px poppins, sans-serif;
+  font: 500 17px /24px var(--nav-container-font-family);
   padding: 10px 16px;
   border-radius: 8px;
   border-width: thin;
@@ -501,15 +511,19 @@ textarea:focus {
   width: 32%;
 }
 
-.mobile-menu-navbar {
-  display: none;
-}
-
 .mobile-navbar {
   font-size: 45px;
 }
 
 .d-none {
+  display: none;
+}
+
+.d-none-md {
+  display: none;
+}
+
+.d-none-lg {
   display: none;
 }
 
@@ -534,7 +548,7 @@ textarea:focus {
   }
 
   .mobile-navbar {
-    font-family: poppins, sans-serif;
+    font-family: var(--nav-container-font-family);
     color: var(--textarea-border-color);
     font-size: 16px;
     margin-left: 8px;
@@ -543,15 +557,15 @@ textarea:focus {
   }
 
   .mobile-navbar:hover {
-    color: #000;
+    color: var(--secondary-color);
   }
 
-  .mobile-navbar a {
+  .mobile-navbar-link {
     text-decoration: none;
     color: var(--textarea-border-color);
   }
 
-  .mobile-navbar a:active {
+  .mobile-navbar-link:active {
     color: var(--btn-hover-box-shadow);
   }
 
@@ -581,21 +595,21 @@ textarea:focus {
     display: flex;
     flex-direction: row;
     color: var(--content-hover-color);
-    font: 500 15px /20px poppins, sans-serif;
+    font: 500 15px /20px var(--nav-container-font-family);
   }
 
   .dropdown-link {
     padding: 2px 8px;
     text-decoration: none;
-    font: 600 22px poppins, sans-serif;
+    font: 600 22px var(--nav-container-font-family);
   }
 
   .nav-container {
-    font: 700 18px poppins, sans-serif;
+    font: 700 18px var(--nav-container-font-family);
   }
 
   .hero-section {
-    background: center/100% no-repeat #fff url('../images/Header-image.png');
+    background: center/100% no-repeat var(--primary-color) url('../images/Header-image.png');
     height: calc(100vh - 65px);
     margin-top: 72px;
   }
@@ -605,7 +619,7 @@ textarea:focus {
   }
 
   .headline {
-    font: 700 55px poppins, sans-serif;
+    font: 700 55px var(--nav-container-font-family);
   }
 
   .hero-headline {
@@ -615,7 +629,7 @@ textarea:focus {
   }
 
   .writeup {
-    font: 400 20px /28px poppins, sans-serif;
+    font: 400 20px /28px var(--nav-container-font-family);
     margin-bottom: 16px;
   }
 
@@ -624,7 +638,7 @@ textarea:focus {
   }
 
   .social-headline {
-    font: 500 16px poppins, sans-serif;
+    font: 500 16px var(--nav-container-font-family);
     margin-bottom: 16px;
   }
 
@@ -653,7 +667,7 @@ textarea:focus {
   }
 
   .works-headline {
-    font: 700 40px /52px poppins, sans-serif;
+    font: 700 40px /52px var(--nav-container-font-family);
     margin: 0;
   }
 
@@ -666,7 +680,7 @@ textarea:focus {
   }
 
   .about-link {
-    font: 500 12px /16px poppins, sans-serif;
+    font: 500 12px /16px var(--nav-container-font-family);
     justify-content: flex-start;
   }
 
@@ -685,7 +699,7 @@ textarea:focus {
   }
 
   .content {
-    font: 500 18px /24px poppins, sans-serif;
+    font: 500 18px /24px var(--nav-container-font-family);
     margin-right: 8px;
     cursor: pointer;
   }
@@ -698,7 +712,7 @@ textarea:focus {
   }
 
   .works-writeup {
-    font: 400 16px /24px poppins, sans-serif;
+    font: 400 16px /24px var(--nav-container-font-family);
     padding: 32px 0 12px;
     margin-bottom: 15px;
   }
@@ -736,12 +750,12 @@ textarea:focus {
   }
 
   .btn {
-    font: 500 17px /24px poppins, sans-serif;
+    font: 500 17px /24px var(--nav-container-font-family);
     padding: 8px 12px;
   }
 
   .button {
-    font: 500 17px /24px poppins, sans-serif;
+    font: 500 17px /24px var(--nav-container-font-family);
     padding: 11px 22px;
     border-radius: 8px;
     margin-top: 22px;
@@ -766,7 +780,7 @@ textarea:focus {
 
   .about-headline {
     width: 50%;
-    font: 700 40px poppins, sans-serif;
+    font: 700 40px var(--nav-container-font-family);
     padding: 0 24px;
   }
 
@@ -779,7 +793,7 @@ textarea:focus {
   }
 
   .about-writeup {
-    font: 400 16px /24px poppins, sans-serif;
+    font: 400 16px /24px var(--nav-container-font-family);
     padding: 0 24px;
     margin-bottom: 16px;
   }
@@ -790,7 +804,7 @@ textarea:focus {
   }
 
   .abt-social-headline {
-    font: 500 16px poppins, sans-serif;
+    font: 500 16px var(--nav-container-font-family);
     margin-bottom: 16px;
   }
 
@@ -800,7 +814,7 @@ textarea:focus {
   }
 
   .lang-vector {
-    font: 500 15px /20px poppins, sans-serif;
+    font: 500 15px /20px var(--nav-container-font-family);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -815,12 +829,12 @@ textarea:focus {
   }
 
   .abt-link {
-    font: 500 12px /16px poppins, sans-serif;
+    font: 500 12px /16px var(--nav-container-font-family);
     justify-content: flex-start;
   }
 
   .about-lang {
-    font: 500 20px /24px poppins, sans-serif;
+    font: 500 20px /24px var(--nav-container-font-family);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -849,7 +863,7 @@ textarea:focus {
   }
 
   .contact-comment-text {
-    font: 400 15px /24px poppins, sans-serif;
+    font: 400 15px /24px var(--nav-container-font-family);
     width: 30%;
     border-radius: 0;
     outline: none;
