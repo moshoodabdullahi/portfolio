@@ -40,16 +40,19 @@ body {
   background-color: var(--body-background-color);
 }
 
+.d-none {
+  display: none;
+}
+
 button:hover {
   cursor: pointer;
 }
 
 .navbar-menu {
-  opacity: 0;
+  opacity: 1;
   width: 100%;
   height: 100vh;
   background: var(--navbar-menu-color);
-  display: flex;
   position: fixed;
   top: 0;
   left: 100%;
@@ -71,7 +74,6 @@ button:hover {
 
 .navbar-link {
   color: var(--primary-color);
-  display: block;
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
@@ -101,7 +103,6 @@ button:hover {
 }
 
 .nav-bar {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px 20px;
@@ -111,7 +112,6 @@ button:hover {
 .nav-container {
   font: 700 18px var(--nav-container-font-family);
   color: var(--logo-color);
-  display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 8px;
@@ -124,7 +124,6 @@ button:hover {
 }
 
 .menu-open-icon {
-  display: flex;
   cursor: pointer;
 }
 
@@ -213,31 +212,15 @@ button:hover {
 
 .about-icon {
   list-style: none;
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 75%;
 }
 
-.works-list {
-  display: block;
-}
-
-.about-link {
-  font: 400 16px /24px var(--nav-container-font-family);
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 45%;
-}
-
 .abt-link {
   font: 400 16px /24px var(--nav-container-font-family);
   list-style: none;
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -245,7 +228,6 @@ button:hover {
 
 .about-icons {
   list-style: none;
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -288,15 +270,10 @@ button:hover {
 
 .social-icons {
   list-style: none;
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 88%;
-}
-
-.mobile-menu-navbar {
-  display: none;
 }
 
 .resume-button,
@@ -371,7 +348,6 @@ button:hover {
   padding: 12px;
   margin: 12px;
   border-radius: 8px;
-  display: flex;
   flex-direction: row;
   align-items: center;
 }
@@ -383,7 +359,6 @@ button:hover {
 .about-lang {
   font: 500 20px /24px var(--nav-container-font-family);
   padding: 24px 24px 24px 14px;
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -392,7 +367,6 @@ button:hover {
 .about-language {
   font: 500 20px /24px var(--nav-container-font-family);
   padding: 24px 24px 24px 12px;
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -402,6 +376,10 @@ button:hover {
 .about-frame {
   width: 100%;
   padding: 4px;
+}
+
+a:hover path {
+  fill: var(--btn-active-background-color);
 }
 
 .contact-section {
@@ -503,40 +481,29 @@ textarea:focus {
   font-size: 45px;
 }
 
-a:hover path {
-  fill: blue;
-}
-
-.d-none {
-  display: none;
-}
-
-.d-none-md {
-  display: none;
-}
-
-.d-none-lg {
-  display: none;
-}
-
-.d-block {
-  display: flex;
-  opacity: 1;
-  left: 0;
-}
-
 .d-flex {
   display: flex;
 }
 
+.d-block {
+  display: block;
+}
+
+.left {
+  left: 0;
+}
+
 @media (width >=1000px) {
-  .menu-link {
+  .d-none-lg {
     display: none;
+  }
+
+  .d-flex-lg {
+    display: flex;
   }
 
   .mobile-menu-navbar {
     color: var(--textarea-border-color);
-    display: flex;
   }
 
   .mobile-navbar {
@@ -584,7 +551,6 @@ a:hover path {
 
   .header-link {
     list-style: none;
-    display: flex;
     flex-direction: row;
     color: var(--content-hover-color);
     font: 500 15px /20px var(--nav-container-font-family);
@@ -604,10 +570,6 @@ a:hover path {
     background: center/100% no-repeat var(--primary-color) url('../images/Header-image.png');
     height: calc(100vh - 65px);
     margin-top: 72px;
-  }
-
-  .menu-open-icon {
-    display: none;
   }
 
   .headline {
@@ -636,7 +598,6 @@ a:hover path {
 
   .works {
     list-style: none;
-    display: flex;
     flex-direction: column;
     width: 78%;
   }
@@ -650,7 +611,6 @@ a:hover path {
   }
 
   .work {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 50%;
@@ -661,10 +621,6 @@ a:hover path {
   .works-headline {
     font: 700 40px /52px var(--nav-container-font-family);
     margin: 0;
-  }
-
-  .works-list {
-    display: block;
   }
 
   .works-article.order {
@@ -732,7 +688,6 @@ a:hover path {
 
   .social-icons {
     list-style: none;
-    display: flex;
     justify-content: flex-start;
     align-items: center;
   }
@@ -763,7 +718,6 @@ a:hover path {
   }
 
   .abt-semi-section {
-    display: flex;
     height: calc(100vh - 120px);
     margin: auto;
     width: 80%;
@@ -807,7 +761,6 @@ a:hover path {
 
   .lang-vector {
     font: 500 15px /20px var(--nav-container-font-family);
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
     height: 6rem;
@@ -815,7 +768,6 @@ a:hover path {
   }
 
   .lang-hold {
-    display: flex;
     width: 90%;
     padding: auto;
   }
@@ -827,7 +779,6 @@ a:hover path {
 
   .about-lang {
     font: 500 20px /24px var(--nav-container-font-family);
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
