@@ -31,7 +31,7 @@
   --navbar-menu-color: rgba(96 112 255 / 95%);
   --menu-container-background-color: rgba(0 46 252 0.5);
   --navbar-menu-li-hover-color: rgb(128 255 0);
-  --navbar-menu-li-hover-background-color: #757980;
+  --navbar-menu-li-hover-background-color: #678684;
   --nav-container-font-family: poppins, sans-serif;
   --menu-link-font-family: roboto, sans-serif;
 }
@@ -86,14 +86,6 @@ button:hover {
 .navbar-link:active {
   cursor: pointer;
   color: var(--navbar-menu-li-color);
-}
-
-.social-icon-svg {
-  fill: var(--social-icons-color);
-}
-
-.social-icon-svg:hover {
-  fill: var(--textarea-border-color);
 }
 
 .navbar {
@@ -198,10 +190,6 @@ button:hover {
   font: 500 24px var(--nav-container-font-family);
   color: var(--abt-social-headline-color);
   margin-bottom: 16px;
-}
-
-.social-icons path:hover {
-  fill: var(--social-icons-color);
 }
 
 .works {
@@ -513,6 +501,10 @@ textarea:focus {
 
 .mobile-navbar {
   font-size: 45px;
+}
+
+a:hover path {
+  fill: blue;
 }
 
 .d-none {
