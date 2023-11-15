@@ -1,4 +1,4 @@
-const worksTargetElement = document.querySelector('.works-target-element');
+const worksTargetElement = document.querySelector('#works-target-element');
 
 tags = ['CANOPY', 'Back End Dev', '2015'];
 links = ['html', 'Ruby on rails', 'css', 'javascript'];
