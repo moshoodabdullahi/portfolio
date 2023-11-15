@@ -47,27 +47,29 @@ body {
 
 .close-details {
   position: absolute;
-  right: 10%;
+  right: 4%;
 }
 
-.details-works-article {
-  margin-bottom: 62px;
-  border-radius: 15px;
-  background-color: var(--primary-color);
-  width: 84%;
-  height: 100vh;
-  padding: 1rem 2rem;
-  margin-left: 35px;
-  position: fixed;
-  top: 0;
+.article-container {
+  background: rgba(193 199 208 0.5);
 }
 
 a:hover path {
   fill: var(--btn-active-background-color);
 }
 
-.details-popup {
+.details-works-article {
+  margin-top: 42px;
+  border-radius: 15px;
+  width: 90%;
+  height: calc(100vh - 67px);
+  padding: 1rem 2rem;
+  margin-left: 35px;
   position: fixed;
+  top: 0;
+  background-color: var(--primary-color);
+  align-items: center;
+  z-index: 200;
 }
 
 .details-about-icon {
@@ -75,6 +77,11 @@ a:hover path {
   list-style: none;
   flex-direction: row;
   align-items: center;
+}
+
+.details-works-img {
+  width: 100%;
+  height: 35vh;
 }
 
 .details-content {
@@ -157,6 +164,11 @@ a:hover path {
 .details-btn-svg:hover path {
   fill-rule: evenodd;
   fill: white;
+}
+
+.details-work-img {
+  width: 100%;
+  height: 40vh;
 }
 
 button:hover {
@@ -334,9 +346,9 @@ button:hover {
 
 .abt-link {
   font: 400 16px /24px var(--nav-container-font-family);
+  margin-bottom: 10px;
   list-style: none;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -353,7 +365,7 @@ button:hover {
 }
 
 .content {
-  margin-left: 18px;
+  margin-left: 6px;
   font: 600 13px /16px var(--nav-container-font-family);
   color: var(--content-color);
 }
@@ -367,11 +379,17 @@ button:hover {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  margin-left: 18px;
+  margin-left: 6px;
 }
 
 .works-writeup {
   font: 400 15px var(--nav-container-font-family);
+  padding: 24px 4px;
+  color: var(--content-hover-color);
+}
+
+.details-works-writeup {
+  font: 400 14px var(--nav-container-font-family);
   padding: 24px 4px;
   color: var(--content-hover-color);
 }
@@ -382,6 +400,7 @@ button:hover {
   padding: 2px 8px;
   text-decoration: none;
   color: var(--logo-color);
+  margin-left: 6px;
 }
 
 .social-icons {
@@ -923,5 +942,102 @@ article {
     width: 30%;
     border-radius: 0;
     outline: none;
+  }
+
+  .details-works-article {
+    width: 78%;
+    height: calc(100vh - 67px);
+    margin-left: 11%;
+  }
+
+  .details-works-headline {
+    font: 700 20px /28px var(--nav-container-font-family);
+    margin: 0;
+  }
+
+  .details-about-icon {
+    margin-bottom: 3px;
+  }
+
+  .details-content {
+    margin-right: 8px;
+    margin-bottom: 6px;
+    font: 600 13px /5px var(--nav-container-font-family);
+  }
+
+  .details-content:hover {
+    color: var(--content-hover-color);
+  }
+
+  .details-dot {
+    margin-right: 22px;
+  }
+
+  .details-works-img {
+    width: 442%;
+    height: 58vh;
+    border-radius: 12px;
+  }
+
+  .details-works-writeup {
+    width: 120%;
+    padding: 10px 0 12px;
+    margin-top: 0;
+    font: 400 12px /16px var(--nav-container-font-family);
+  }
+
+  .details-abt-link {
+    font: 400 12px /50px var(--nav-container-font-family);
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 128px;
+    left: 68%;
+    width: 100%;
+  }
+
+  .details-btn-wrapper {
+    justify-content: center;
+    position: relative;
+    bottom: 35px;
+    left: 115%;
+    width: 100%;
+  }
+
+  .details-live-btn {
+    width: 32%;
+    font: 500 13px /22px var(--nav-container-font-family);
+    padding: 5px 2px;
+    margin-right: 12px;
+  }
+
+  .details-live-btn:hover {
+    color: var(--primary-color);
+    background-color: var(--btn-color);
+  }
+
+  .details-source-btn {
+    width: 32%;
+    font: 500 15px /22px var(--nav-container-font-family);
+    padding: 6px 2px;
+    margin-right: 5px;
+  }
+
+  .details-source-btn:hover {
+    color: var(--primary-color);
+    background-color: var(--btn-color);
+  }
+
+  .details-link {
+    margin-right: 35px;
+  }
+
+  .details-btn-svg:hover path {
+    fill-rule: evenodd;
+    fill: white;
+  }
+
+  .details-work-img {
+    width: 100%;
+    height: 40vh;
   }
 }
