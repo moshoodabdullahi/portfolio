@@ -35,6 +35,7 @@
   --nav-container-font-family: poppins, sans-serif;
   --menu-link-font-family: roboto, sans-serif;
   --details-top-position: 0;
+  --article-container-background: rgba(193 199 208 0.5);
 }
 
 body {
@@ -51,7 +52,7 @@ body {
 }
 
 .article-container {
-  background: rgba(193 199 208 0.5);
+  background: var(--article-container-background);
 }
 
 a:hover path {
@@ -85,8 +86,8 @@ a:hover path {
 }
 
 .details-content {
-  margin-right: 22px;
-  font: 600 15px /16px var(--nav-container-font-family);
+  margin-right: 10px;
+  font: 600 13px /16px var(--nav-container-font-family);
   color: var(--content-color);
 }
 
@@ -99,8 +100,8 @@ a:hover path {
 }
 
 .details-abt-link {
-  font: 400 16px /24px var(--nav-container-font-family);
-  margin-bottom: 10px;
+  font: 400 13px /24px var(--nav-container-font-family);
+  margin-bottom: 8px;
   list-style: none;
   flex-direction: row;
   align-items: center;
@@ -119,8 +120,8 @@ a:hover path {
 
 .details-live-btn {
   width: 45%;
-  font: 500 17px /24px var(--nav-container-font-family);
-  padding: 18px 16px;
+  font: 500 15px /24px var(--nav-container-font-family);
+  padding: 13px 16px;
   border-radius: 8px;
   margin-left: 12px;
   color: var(--btn-color);
@@ -135,8 +136,8 @@ a:hover path {
 
 .details-source-btn {
   width: 45%;
-  font: 500 17px /24px var(--nav-container-font-family);
-  padding: 18px 16px;
+  font: 500 15px /24px var(--nav-container-font-family);
+  padding: 13px 16px;
   border-radius: 8px;
   margin-right: 12px;
   color: var(--btn-color);
@@ -337,6 +338,11 @@ button:hover {
   margin-bottom: 10px;
 }
 
+.details-works-headline {
+  font: 700 20px /35px var(--nav-container-font-family);
+  margin-bottom: 8px;
+}
+
 .about-icon {
   margin-bottom: 10px;
   list-style: none;
@@ -389,8 +395,8 @@ button:hover {
 }
 
 .details-works-writeup {
-  font: 400 14px var(--nav-container-font-family);
-  padding: 24px 4px;
+  font: 400 12px var(--nav-container-font-family);
+  padding: 20px 4px;
   color: var(--content-hover-color);
 }
 
@@ -950,11 +956,6 @@ article {
     margin-left: 11%;
   }
 
-  .details-works-headline {
-    font: 700 20px /28px var(--nav-container-font-family);
-    margin: 0;
-  }
-
   .details-about-icon {
     margin-bottom: 3px;
   }
@@ -1017,7 +1018,7 @@ article {
 
   .details-source-btn {
     width: 32%;
-    font: 500 15px /22px var(--nav-container-font-family);
+    font: 500 13px /22px var(--nav-container-font-family);
     padding: 6px 2px;
     margin-right: 5px;
   }
