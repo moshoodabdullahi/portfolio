@@ -7,95 +7,95 @@ const projects = [
     id: 'display-tonic-element',
     title: 'Tonic',
     tags: ['TONIC', 'FrontEnd Dev', '2015'],
-    screenshot: 'images/snapshoot-portfolio-profile-img.png',
-    screenshotalt: 'Screenshot of Tonic Project',
+    image: 'images/snapshoot-portfolio-profile-img.png',
+    imagealt: 'Screenshot of Tonic Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       
       Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    link: ['html', 'css', 'javascript'],
-    links: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
+    framework: ['html', 'css', 'javascript'],
+    frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
     btnId: 'tonic-btn-element',
   },
   {
     id: 'display-availability-element',
     title: 'Multi-Post Stories',
     tags: ['AVAILABILITY', 'Back End Dev', '2015'],
-    screenshot: 'images/snapshoot-portfolio-availability.png',
-    screenshotalt: 'Screenshot of Multi-Post Stories Project',
+    image: 'images/snapshoot-portfolio-availability.png',
+    imagealt: 'Screenshot of Multi-Post Stories Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       
       Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    link: ['html', 'css', 'javascript'],
-    links: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
+    framework: ['html', 'css', 'javascript'],
+    frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
     btnId: 'availability-btn-element',
   },
   {
     id: 'display-weather-element',
     title: 'Facebook 360',
     tags: ['FACEBOOK', 'FullStack Dev', '2015'],
-    screenshot: 'images/snapshoot-portfolio-weather.png',
-    screenshotalt: 'Screenshot of Facebook 360 Project',
+    image: 'images/snapshoot-portfolio-weather.png',
+    imagealt: 'Screenshot of Facebook 360 Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       
       Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    link: ['html', 'css', 'javascript'],
-    links: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
+    framework: ['html', 'css', 'javascript'],
+    frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
     btnId: 'weather-btn-element',
   },
   {
     id: 'display-art-element',
     title: 'Uber Navigation',
     tags: ['UBER', 'Load Developer', '2015'],
-    screenshot: 'images/snapshoot-portfolio-art.png',
-    screenshotalt: 'Screenshot of Uber Navigation Project',
+    image: 'images/snapshoot-portfolio-art.png',
+    imagealt: 'Screenshot of Uber Navigation Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       
       Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    link: ['html', 'css', 'javascript'],
-    links: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
+    framework: ['html', 'css', 'javascript'],
+    frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
     btnId: 'art-btn-element',
   },
   {
     id: 'display-window-element',
     title: 'Window Pop-up',
     tags: ['WINDOW', 'Full Stack Dev', '2015'],
-    screenshot: 'images/snapshoot-portfolio-availability.png',
-    screenshotalt: 'Screenshot of Window pop-up Project',
+    image: 'images/snapshoot-portfolio-availability.png',
+    imagealt: 'Screenshot of Window pop-up Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       
       Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    link: ['html', 'css', 'javascript'],
-    links: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
+    framework: ['html', 'css', 'javascript'],
+    frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
     btnId: 'window-btn-element',
   },
   {
     id: 'display-art-work-element',
     title: 'Art Work',
     tags: ['ART', 'FrontEnd Dev', '2015'],
-    screenshot: 'images/snapshoot-portfolio-weather.png',
-    screenshotalt: 'Screenshot of Art Work Project',
+    image: 'images/snapshoot-portfolio-weather.png',
+    imagealt: 'Screenshot of Art Work Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
       
       Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
-    link: ['html', 'css', 'javascript'],
-    links: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
+    framework: ['html', 'css', 'javascript'],
+    frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
     btnId: 'art-work-btn-element',
   },
 ];
 
-const generateDetailsWork = (id, title, tags, screenshot, screenshotalt, description, links) =>
+const generateDetailsWork = (id, title, tags, image, imagealt, description, frameworks) =>
   `<article id="${id}" class="details-target-element details-target-element details-works-article details-popup left d-none">
 <div class="works-article d-flex">
   <div class="details-header">
@@ -116,7 +116,7 @@ const generateDetailsWork = (id, title, tags, screenshot, screenshotalt, descrip
   </ul>
 
   <div class="img-profile details-img-profile">
-    <img class="details-works-img" src="${screenshot}" alt="${screenshotalt}" />
+    <img class="details-works-img" src="${image}" alt="${imagealt}" />
   </div>
 
   <p class="works-writeup details-works-writeup">
@@ -124,7 +124,7 @@ const generateDetailsWork = (id, title, tags, screenshot, screenshotalt, descrip
   </p>
 
   <ul class="details-abt-link d-flex">
-  ${links.map((link) => '<li class="details-works-link">' + link + '</li>').join('')}
+  ${frameworks.map((framework) => '<li class="details-works-link">' + framework + '</li>').join('')}
   </ul>
 
   <div class="details-btn-wrapper">
@@ -162,19 +162,40 @@ const generateDetailsWork = (id, title, tags, screenshot, screenshotalt, descrip
 </div>
 </article>`;
 
-const displayDetailsArray = details
-  .map((detail) =>
-    generateDetailsWork(
-      detail.id,
-      detail.title,
-      detail.tags,
-      detail.screenshot,
-      detail.screenshotalt,
-      detail.description,
-      detail.links,
-      detail.closeId,
-    ),
-  )
-  .join('');
+const displayDetailsPopup = (id) => {
+  const displaySeeProjects = displayDetailsScreen.find((value) => value.id === id);
 
-detailsTargetElement.innerHTML = displayDetailsArray;
+  if (displaySeeProjects) {
+    const displayDetailsArray = details.map((detail) =>
+      generateDetailsWork(
+        detail.id,
+        detail.title,
+        detail.tags,
+        detail.image,
+        detail.imagealt,
+        detail.description,
+        detail.frameworks,
+        detail.closeId,
+      ),
+    );
+
+    detailsTargetElement.innerHTML = displayDetailsArray;
+
+    closeDetailsElement.addEventListener('click', function closeId() {
+      detailsTargetElement.classList.add('d-none');
+      detailsTargetElement.classList.remove('d-flex');
+    });
+  }
+};
+
+function displaySeeProject(event) {
+  const button = event.target;
+  const seeProjects = button.value;
+
+  if (seeProjects === 'see-project') {
+    displayDetailsPopup(button.id);
+    detailsTargetElement.classList.remove('d-none');
+    detailsTargetElement.classList.add('d-flex');
+  }
+}
+worksTargetElement.addEventListener('click', displaySeeProject);

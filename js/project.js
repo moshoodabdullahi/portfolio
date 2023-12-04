@@ -2,10 +2,10 @@ import projects from './project-list.js';
 
 const worksTargetElement = document.querySelector('#works-target-element');
 
-const generateProjectWork = (title, tags, screenshot, screenshotalt, description, links, id) =>
+const generateProjectWork = (title, tags, image, imagealt, description, frameworks, id) =>
   `<article class="work d-block d-flex-lg">
   <div class="img-profile">
-    <img class="works-img" src="${screenshot}" alt="${screenshotalt}" />
+    <img class="works-img" src="${image}" alt="${imagealt}" />
   </div>
 
   <div class="works-article">
@@ -19,7 +19,7 @@ const generateProjectWork = (title, tags, screenshot, screenshotalt, description
     </p>
 
     <ul class="abt-link d-flex">
-    ${links.map((link) => '<li class="works-link">' + link + '</li>').join('')}
+    ${frameworks.map((framework) => '<li class="works-link">' + framework + '</li>').join('')}
     </ul>
 
     <button id="${id}" value="see-project" class="btn">See Project</button>
@@ -31,10 +31,10 @@ const displayProjectArray = projects
     generateProjectWork(
       project.title,
       project.tags,
-      project.screenshot,
-      project.screenshotalt,
+      project.image,
+      project.imagealt,
       project.description,
-      project.link,
+      project.framework,
       project.id,
     ),
   )
