@@ -1,14 +1,13 @@
 const detailsTargetElement = document.querySelector('#details-target-element');
-const closeDetailsElement = document.querySelector('#close-details-element');
 const worksTargetElement = document.querySelector('#works-target-element');
 
 const projects = [
   {
     id: 'display-tonic-element',
-    title: 'Tonic',
-    tags: ['TONIC', 'FrontEnd Dev', '2015'],
-    image: 'images/snapshoot-portfolio-profile-img.png',
-    imagealt: 'Screenshot of Tonic Project',
+    title: 'Admin Dashboard',
+    tags: ['DASHBOARD', 'FrontEnd Dev', '2015'],
+    image: 'snapshoot-admin-dashboard-img.png',
+    imagealt: 'Screenshot of Admin Dashboard Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -17,13 +16,15 @@ const projects = [
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
     btnId: 'tonic-btn-element',
+    seelivelink: `https://deploy-preview-1--dema-admin-dashboard.netlify.app/`,
+    seesourcelink: `https://github.com/moshoodabdullahi/top-admin-dashboard/pull/1`,
   },
   {
     id: 'display-availability-element',
-    title: 'Multi-Post Stories',
-    tags: ['AVAILABILITY', 'Back End Dev', '2015'],
-    image: 'images/snapshoot-portfolio-availability.png',
-    imagealt: 'Screenshot of Multi-Post Stories Project',
+    title: 'Basketball Scoreboard',
+    tags: ['SCOREBOARD', 'Back End Dev', '2015'],
+    image: 'snapshoot-basketball-scoreboard-img.png',
+    imagealt: 'Screenshot of Basketball Scoreboard Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -32,13 +33,15 @@ const projects = [
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
     btnId: 'availability-btn-element',
+    seelivelink: `https://deploy-preview-1--doc-basketball-scoreboard.netlify.app/`,
+    seesourcelink: `https://github.com/moshoodabdullahi/basketball-scoreboard/pull/1`,
   },
   {
     id: 'display-weather-element',
-    title: 'Facebook 360',
-    tags: ['FACEBOOK', 'FullStack Dev', '2015'],
-    image: 'images/snapshoot-portfolio-weather.png',
-    imagealt: 'Screenshot of Facebook 360 Project',
+    title: 'City Skyline',
+    tags: ['CITY VIEW', 'City Structure', '2015'],
+    image: 'snapshoot-city-skyline-img.png',
+    imagealt: 'Screenshot of City Skyline Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -47,13 +50,15 @@ const projects = [
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
     btnId: 'weather-btn-element',
+    seelivelink: `https://deploy-preview-1--glittering-pixie-58ab1a.netlify.app/`,
+    seesourcelink: `https://github.com/moshoodabdullahi/fcc-city-skyline/pull/1`,
   },
   {
     id: 'display-art-element',
-    title: 'Uber Navigation',
-    tags: ['UBER', 'Load Developer', '2015'],
-    image: 'images/snapshoot-portfolio-art.png',
-    imagealt: 'Screenshot of Uber Navigation Project',
+    title: 'Random Password',
+    tags: ['PASSWORD GENERATOR', 'Load Developer', '2015'],
+    image: 'snapshoot-random-password-generator-img.png',
+    imagealt: 'Screenshot of Random Password Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -62,13 +67,15 @@ const projects = [
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
     btnId: 'art-btn-element',
+    seelivelink: `https://abdullahi-random-password-generator.netlify.app/`,
+    seesourcelink: `https://github.com/moshoodabdullahi/password-generator/pull/1`,
   },
   {
     id: 'display-window-element',
-    title: 'Window Pop-up',
-    tags: ['WINDOW', 'Full Stack Dev', '2015'],
-    image: 'images/snapshoot-portfolio-availability.png',
-    imagealt: 'Screenshot of Window pop-up Project',
+    title: 'Rock Paper Scissors',
+    tags: ['GAME', 'Full Stack Dev', '2015'],
+    image: 'snapshoot-rock-paper-scissors-game-img.png',
+    imagealt: 'Screenshot of Rock Paper Scissors Game',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -77,13 +84,15 @@ const projects = [
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
     btnId: 'window-btn-element',
+    seelivelink: `https://deploy-preview-1--abdullahi-rock-paper-scissors.netlify.app/`,
+    seesourcelink: `https://github.com/moshoodabdullahi/rock-paper-scissors/pull/1`,
   },
   {
     id: 'display-art-work-element',
-    title: 'Art Work',
-    tags: ['ART', 'FrontEnd Dev', '2015'],
-    image: 'images/snapshoot-portfolio-weather.png',
-    imagealt: 'Screenshot of Art Work Project',
+    title: 'Sign-up Form',
+    tags: ['FORM', 'FrontEnd Dev', '2015'],
+    image: 'snapshoot-sign-up-form-img.png',
+    imagealt: 'Screenshot of Sign-up Form Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -92,12 +101,25 @@ const projects = [
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
     btnId: 'art-work-btn-element',
+    seelivelink: `https://deploy-preview-1--add-top-signup-form.netlify.app/`,
+    seesourcelink: `https://github.com/moshoodabdullahi/top-signup-form/pull/1`,
   },
 ];
 
-const generateDetailsWork = (id, title, tags, image, imagealt, description, frameworks) =>
-  `<article id="${id}" class="details-target-element details-target-element details-works-article details-popup left d-none">
-<div class="works-article d-flex">
+const generateDetailsWork = (
+  id,
+  title,
+  tags,
+  image,
+  imagealt,
+  fulldescription,
+  framework,
+  frameworks,
+  seelivelink,
+  seesourcelink,
+) =>
+  `<article id="${id}" class="details-target-element details-target-element details-works-article details-popup left">
+<div class="works-article details-work-article d-block">
   <div class="details-header">
     <h3 class="works-headline details-works-headline">
       ${title}
@@ -119,16 +141,24 @@ const generateDetailsWork = (id, title, tags, image, imagealt, description, fram
     <img class="details-works-img" src="${image}" alt="${imagealt}" />
   </div>
 
-  <p class="works-writeup details-works-writeup">
-  ${description}
+  <p class="works-writeup details-works-writeup d-block-lg">
+  ${fulldescription}
   </p>
 
-  <ul class="details-abt-link d-flex">
-  ${frameworks.map((framework) => '<li class="details-works-link">' + framework + '</li>').join('')}
+  <ul class="abt-link details-abt-link d-flex">
+  ${frameworks
+    .map((framework, index) => {
+      if (index < 3) {
+        return '<li class="works-link details-works-link">' + framework + '</li>';
+      } else {
+        return '<li class="works-link details-works-link d-none d-block-lg">' + framework + '</li>';
+      }
+    })
+    .join('')}
   </ul>
 
   <div class="details-btn-wrapper">
-    <button class="details-live-btn">
+    <a href="${seelivelink}" class="details-live-btn">
       See Live
       <svg class="details-btn-svg" width="20" height="24" viewBox="0 0 24 24" fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -136,8 +166,8 @@ const generateDetailsWork = (id, title, tags, image, imagealt, description, fram
           d="M5 12C5 8.13401 8.13401 5 12 5C12.5523 5 13 4.55228 13 4C13 3.44772 12.5523 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 11.4477 20.5523 11 20 11C19.4477 11 19 11.4477 19 12C19 15.866 15.866 19 12 19C8.13401 19 5 15.866 5 12ZM16 3C15.4477 3 15 3.44772 15 4C15 4.55228 15.4477 5 16 5H17.5858L11.2929 11.2929C10.9024 11.6834 10.9024 12.3166 11.2929 12.7071C11.6834 13.0976 12.3166 13.0976 12.7071 12.7071L19 6.41421V8C19 8.55228 19.4477 9 20 9C20.5523 9 21 8.55228 21 8V4C21 3.44772 20.5523 3 20 3H16Z"
           fill="#6070FF" />
       </svg>
-    </button>
-    <button class="details-source-btn">
+    </a>
+    <a href="${seesourcelink}" class="details-source-btn">
       See Source
       <svg class="details-btn-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
         xmlns="http://www.w3.org/2000/svg">
@@ -157,43 +187,42 @@ const generateDetailsWork = (id, title, tags, image, imagealt, description, fram
           </clipPath>
         </defs>
       </svg>
-    </button>
+    </a>
   </div>
 </div>
 </article>`;
 
 const displayDetailsPopup = (id) => {
-  const displaySeeProjects = displayDetailsScreen.find((value) => value.id === id);
+  const displaySeeProjects = projects.find((value) => value.id === id);
 
-  if (displaySeeProjects) {
-    const displayDetailsArray = details.map((detail) =>
-      generateDetailsWork(
-        detail.id,
-        detail.title,
-        detail.tags,
-        detail.image,
-        detail.imagealt,
-        detail.description,
-        detail.frameworks,
-        detail.closeId,
-      ),
-    );
+  const popupInnerHTML = generateDetailsWork(
+    displaySeeProjects.id,
+    displaySeeProjects.title,
+    displaySeeProjects.tags,
+    displaySeeProjects.image,
+    displaySeeProjects.imagealt,
+    displaySeeProjects.fulldescription,
+    displaySeeProjects.framework,
+    displaySeeProjects.frameworks,
+    displaySeeProjects.seelivelink,
+    displaySeeProjects.seesourcelink,
+  );
 
-    detailsTargetElement.innerHTML = displayDetailsArray;
+  detailsTargetElement.innerHTML = popupInnerHTML;
 
-    closeDetailsElement.addEventListener('click', function closeId() {
-      detailsTargetElement.classList.add('d-none');
-      detailsTargetElement.classList.remove('d-flex');
-    });
-  }
+  const closeDetailsElement = detailsTargetElement.querySelector('#close-details-element');
+  closeDetailsElement.addEventListener('click', () => {
+    detailsTargetElement.classList.remove('d-flex');
+    detailsTargetElement.classList.add('d-none');
+  });
 };
 
 function displaySeeProject(event) {
-  const button = event.target;
-  const seeProjects = button.value;
+  const displayProjectEvent = event.target;
+  const seeProjects = displayProjectEvent.value;
 
   if (seeProjects === 'see-project') {
-    displayDetailsPopup(button.id);
+    displayDetailsPopup(displayProjectEvent.id);
     detailsTargetElement.classList.remove('d-none');
     detailsTargetElement.classList.add('d-flex');
   }

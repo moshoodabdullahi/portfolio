@@ -1,10 +1,10 @@
 const projects = [
   {
     id: 'display-tonic-element',
-    title: 'Tonic',
-    tags: ['TONIC', 'FrontEnd Dev', '2015'],
-    image: 'images/snapshoot-portfolio-profile-img.png',
-    imagealt: 'Screenshot of Tonic Project',
+    title: 'Admin Dashboard',
+    tags: ['DASHBOARD', 'FrontEnd Dev', '2015'],
+    image: 'snapshoot-admin-dashboard-img.png',
+    imagealt: 'Screenshot of Admin Dashboard Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -16,10 +16,10 @@ const projects = [
   },
   {
     id: 'display-availability-element',
-    title: 'Multi-Post Stories',
-    tags: ['AVAILABILITY', 'Back End Dev', '2015'],
-    image: 'images/snapshoot-portfolio-availability.png',
-    imagealt: 'Screenshot of Multi-Post Stories Project',
+    title: 'Basketball Scoreboard',
+    tags: ['SCOREBOARD', 'Back End Dev', '2015'],
+    image: 'snapshoot-basketball-scoreboard-img.png',
+    imagealt: 'Screenshot of Basketball Scoreboard Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -31,10 +31,10 @@ const projects = [
   },
   {
     id: 'display-weather-element',
-    title: 'Facebook 360',
-    tags: ['FACEBOOK', 'FullStack Dev', '2015'],
-    image: 'images/snapshoot-portfolio-weather.png',
-    imagealt: 'Screenshot of Facebook 360 Project',
+    title: 'City Skyline',
+    tags: ['CITY VIEW', 'City Structure', '2015'],
+    image: 'snapshoot-city-skyline-img.png',
+    imagealt: 'Screenshot of City Skyline Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -46,10 +46,10 @@ const projects = [
   },
   {
     id: 'display-art-element',
-    title: 'Uber Navigation',
-    tags: ['UBER', 'Load Developer', '2015'],
-    image: 'images/snapshoot-portfolio-art.png',
-    imagealt: 'Screenshot of Uber Navigation Project',
+    title: 'Random Password',
+    tags: ['PASSWORD GENERATOR', 'Load Developer', '2015'],
+    image: 'snapshoot-random-password-generator-img.png',
+    imagealt: 'Screenshot of Random Password Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -61,10 +61,10 @@ const projects = [
   },
   {
     id: 'display-window-element',
-    title: 'Window Pop-up',
-    tags: ['WINDOW', 'Full Stack Dev', '2015'],
-    image: 'images/snapshoot-portfolio-availability.png',
-    imagealt: 'Screenshot of Window pop-up Project',
+    title: 'Rock Paper Scissors',
+    tags: ['GAME', 'Full Stack Dev', '2015'],
+    image: 'snapshoot-rock-paper-scissors-game-img.png',
+    imagealt: 'Screenshot of Rock Paper Scissors Game',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -76,10 +76,10 @@ const projects = [
   },
   {
     id: 'display-art-work-element',
-    title: 'Art Work',
-    tags: ['ART', 'FrontEnd Dev', '2015'],
-    image: 'images/snapshoot-portfolio-weather.png',
-    imagealt: 'Screenshot of Art Work Project',
+    title: 'Sign-up Form',
+    tags: ['FORM', 'FrontEnd Dev', '2015'],
+    image: 'snapshoot-sign-up-form-img.png',
+    imagealt: 'Screenshot of Sign-up Form Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
