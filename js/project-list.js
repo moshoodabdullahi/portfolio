@@ -1,10 +1,10 @@
 const projects = [
   {
-    id: 'display-tonic-element',
+    id: 'display-admin-dashboard-element',
     title: 'Admin Dashboard',
-    tags: ['DASHBOARD', 'FrontEnd Dev', '2015'],
+    tags: ['DASHBOARD', 'Odin Project', '2022'],
     image: 'snapshoot-admin-dashboard-img.png',
-    imagealt: 'Screenshot of Admin Dashboard Project',
+    imagealt: 'Image of Admin Dashboard Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -12,14 +12,15 @@ const projects = [
       Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
-    btnId: 'tonic-btn-element',
+    seelivelink: 'dema-admin-dashboard.netlify.app/',
+    seesourcelink: 'https://github.com/moshoodabdullahi/top-admin-dashboard',
   },
   {
-    id: 'display-availability-element',
+    id: 'display-basketball-scoboard-element',
     title: 'Basketball Scoreboard',
-    tags: ['SCOREBOARD', 'Back End Dev', '2015'],
+    tags: ['SCOREBOARD', 'Sportmanship', '2022'],
     image: 'snapshoot-basketball-scoreboard-img.png',
-    imagealt: 'Screenshot of Basketball Scoreboard Project',
+    imagealt: 'Image of Basketball Scoreboard Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -27,14 +28,15 @@ const projects = [
       Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
-    btnId: 'availability-btn-element',
+    seelivelink: 'doc-basketball-scoreboard.netlify.app/',
+    seesourcelink: 'https://github.com/moshoodabdullahi/basketball-scoreboard',
   },
   {
-    id: 'display-weather-element',
+    id: 'display-city-skyline-element',
     title: 'City Skyline',
-    tags: ['CITY VIEW', 'City Structure', '2015'],
+    tags: ['CITY', 'Structure', '2022'],
     image: 'snapshoot-city-skyline-img.png',
-    imagealt: 'Screenshot of City Skyline Project',
+    imagealt: 'Image of City Skyline Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -42,14 +44,15 @@ const projects = [
       Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
-    btnId: 'weather-btn-element',
+    seelivelink: 'glittering-pixie-58ab1a.netlify.app/',
+    seesourcelink: 'https://github.com/moshoodabdullahi/fcc-city-skyline',
   },
   {
-    id: 'display-art-element',
+    id: 'display-random-password-element',
     title: 'Random Password',
-    tags: ['PASSWORD GENERATOR', 'Load Developer', '2015'],
+    tags: ['GENERATOR', 'Developer', '2022'],
     image: 'snapshoot-random-password-generator-img.png',
-    imagealt: 'Screenshot of Random Password Project',
+    imagealt: 'Image of Random Password Generator Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -57,14 +60,15 @@ const projects = [
       Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
-    btnId: 'art-btn-element',
+    seelivelink: 'random-password-generator.netlify.app/',
+    seesourcelink: 'https://github.com/moshoodabdullahi/password-generator',
   },
   {
-    id: 'display-window-element',
+    id: 'display-rock-paper-scissors-element',
     title: 'Rock Paper Scissors',
-    tags: ['GAME', 'Full Stack Dev', '2015'],
+    tags: ['GAME', 'Full Stack Dev', '2023'],
     image: 'snapshoot-rock-paper-scissors-game-img.png',
-    imagealt: 'Screenshot of Rock Paper Scissors Game',
+    imagealt: 'Image of Rock Paper Scissors Game',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -72,14 +76,15 @@ const projects = [
       Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
-    btnId: 'window-btn-element',
+    seelivelink: 'abdullahi-rock-paper-scissors.netlify.app/',
+    seesourcelink: 'https://github.com/moshoodabdullahi/rock-paper-scissors',
   },
   {
-    id: 'display-art-work-element',
+    id: 'display-sign-up-form-element',
     title: 'Sign-up Form',
-    tags: ['FORM', 'FrontEnd Dev', '2015'],
+    tags: ['FORM', 'FrontEnd Dev', '2022'],
     image: 'snapshoot-sign-up-form-img.png',
-    imagealt: 'Screenshot of Sign-up Form Project',
+    imagealt: 'Image of Sign-up Form Project',
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     fulldescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -87,7 +92,8 @@ const projects = [
       Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
-    btnId: 'art-work-btn-element',
+    seelivelink: '-add-top-signup-form.netlify.app/',
+    seesourcelink: 'https://github.com/moshoodabdullahi/top-signup-form',
   },
 ];
 

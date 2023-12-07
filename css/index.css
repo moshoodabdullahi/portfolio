@@ -346,7 +346,7 @@ button:hover {
 }
 
 .details-works-headline {
-  font: 700 20px /35px var(--nav-container-font-family);
+  font: 700 20px /10px var(--nav-container-font-family);
   margin-bottom: 8px;
 }
 
@@ -405,6 +405,7 @@ button:hover {
   font: 400 9px var(--nav-container-font-family);
   padding: 20px 4px;
   color: var(--content-hover-color);
+  line-height: 1.3;
 }
 
 .works-link {
@@ -629,6 +630,13 @@ article {
   cursor: pointer;
 }
 
+.details {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(168 164 162 / 70%);
+}
+
 .d-flex {
   display: flex;
 }
@@ -649,6 +657,13 @@ article {
 
   .d-block-lg {
     display: block;
+  }
+
+  .details {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(168 164 162 / 70%);
   }
 
   .mobile-menu-navbar {
