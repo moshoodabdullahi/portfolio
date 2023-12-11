@@ -1,0 +1,54 @@
+/* stylelint-disable prettier/prettier */
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.relative {
+  position: relative;
+}
+
+.d-block {
+  display: block;
+}
+
+.left {
+  left: 0;
+}
+
+@media (width >=1000px) {
+  .d-none-lg {
+    display: none;
+  }
+
+  .d-flex-lg {
+    display: flex;
+  }
+
+  .d-block-lg {
+    display: block;
+  }
+
+  .absolute {
+    position: absolute;
+  }
+
+  .fixed-lg {
+    position: fixed;
+  }
+
+  .relative-lg {
+    position: relative;
+  }
+}

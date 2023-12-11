@@ -1,3 +1,4 @@
+@import url('./utility.css');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 * {
@@ -36,18 +37,15 @@
   --menu-link-font-family: roboto, sans-serif;
   --details-top-position: 0;
   --article-container-background: rgba(193 199 208 0.5);
+  --details-btn-hover-color: white;
+  --details-background-color: rgba(168 164 162 / 70%);
 }
 
 body {
   background-color: var(--body-background-color);
 }
 
-.d-none {
-  display: none;
-}
-
 .close-details {
-  position: absolute;
   right: 4%;
 }
 
@@ -127,7 +125,6 @@ a:hover path {
   color: var(--btn-color);
   background-color: var(--primary-color);
   text-decoration: none;
-  display: flex;
   justify-content: center;
   border: 2px solid var(--btn-color);
 }
@@ -147,7 +144,6 @@ a:hover path {
   border-color: var(--btn-color);
   background-color: var(--primary-color);
   text-decoration: none;
-  display: flex;
   justify-content: center;
   border: 2px solid var(--btn-color);
 }
@@ -158,20 +154,18 @@ a:hover path {
 }
 
 .details-btn-wrapper {
-  display: flex;
   justify-content: space-between;
   margin-top: 2px;
   margin-bottom: 2px;
 }
 
 .details-btn-svg {
-  position: absolute;
   margin-left: 120px;
 }
 
 .details-btn-svg:hover path {
   fill-rule: evenodd;
-  fill: white;
+  fill: var(--details-btn-hover-color);
 }
 
 .details-work-img {
@@ -188,9 +182,8 @@ button:hover {
   width: 100%;
   height: 100vh;
   background: var(--navbar-menu-color);
-  position: fixed;
   top: 0;
-  left: 100%;
+  right: 100%;
   padding: 8rem 2rem;
 }
 
@@ -229,7 +222,6 @@ button:hover {
   padding: 1rem 1.5rem;
   align-items: center;
   justify-content: space-between;
-  position: relative;
 }
 
 .navbar-hamb {
@@ -276,7 +268,6 @@ button:hover {
 }
 
 .close-image {
-  position: absolute;
   cursor: pointer;
   top: 11px;
   right: 35px;
@@ -631,39 +622,16 @@ article {
 }
 
 .details {
-  position: fixed;
   width: 100%;
   height: 100%;
-  background-color: rgba(168 164 162 / 70%);
-}
-
-.d-flex {
-  display: flex;
-}
-
-.d-block {
-  display: block;
-  left: 0;
+  background-color: var(--details-background-color);
 }
 
 @media (width >=1000px) {
-  .d-none-lg {
-    display: none;
-  }
-
-  .d-flex-lg {
-    display: flex;
-  }
-
-  .d-block-lg {
-    display: block;
-  }
-
   .details {
-    position: fixed;
     width: 100%;
     height: 100%;
-    background-color: rgba(168 164 162 / 70%);
+    background-color: var(--details-background-color);
   }
 
   .mobile-menu-navbar {
@@ -701,7 +669,6 @@ article {
   }
 
   .nav-bar {
-    position: fixed;
     top: 0;
     width: 100%;
     height: 72px;
@@ -711,7 +678,6 @@ article {
 
   .nav-layout {
     width: 76%;
-    display: flex;
     justify-content: space-between;
     margin: auto;
     align-items: center;
@@ -1024,7 +990,6 @@ article {
   .details-abt-link {
     font: 400 12px /25px var(--nav-container-font-family);
     margin-bottom: 0;
-    position: absolute;
     bottom: 111px;
     left: 60%;
     width: 100%;
@@ -1032,7 +997,6 @@ article {
 
   .details-btn-wrapper {
     justify-content: center;
-    position: relative;
     bottom: 20px;
     left: 113%;
     width: 100%;
@@ -1044,7 +1008,6 @@ article {
     padding: 5px 2px;
     margin-right: 12px;
     text-decoration: none;
-    display: flex;
     justify-content: center;
   }
 
@@ -1059,7 +1022,6 @@ article {
     padding: 6px 2px;
     margin-right: 5px;
     text-decoration: none;
-    display: flex;
     justify-content: center;
   }
 
