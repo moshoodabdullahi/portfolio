@@ -11,7 +11,7 @@ const projects = [
       Furthermore the Admin Dashboard also test the abilities of a student on how to make a page be in a grid form and also the placement of element in a project, it is very improtant to use a perfect HTML tags where needed and not mix it all together for better understanding of your code. Admin Dashboard also aid the making use of Icons, different type of Icons were used to build the project sidebar.`,
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
-    seeLiveLink: 'dema-admin-dashboard.netlify.app/',
+    seeLiveLink: 'https://dema-admin-dashboard.netlify.app/',
     seeSourceLink: 'https://github.com/moshoodabdullahi/top-admin-dashboard',
   },
   {
@@ -27,7 +27,7 @@ const projects = [
       While the HTML is use to build a page, JavaScript is use to make the page responsive, it will make it clickable, and this can be done with the knowledge aquired from all the non-stop practice and building of projects; the basketball scoreboard consist of 2 sides, one belongs to guest and the other home, and each side has 3 button which is adding either 1 or 2 or 3 score for who wins in a round, there is also an empty space above it, that is storing the sore when clicked on, all this is made possible with the help of JavaScript.`,
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
-    seeLiveLink: 'doc-basketball-scoreboard.netlify.app/',
+    seeLiveLink: 'https://doc-basketball-scoreboard.netlify.app/',
     seeSourceLink: 'https://github.com/moshoodabdullahi/basketball-scoreboard',
   },
   {
@@ -43,7 +43,7 @@ const projects = [
       In Addition the city skyline also make use of HTML Element for the layout but the main focus of the project is to aid the styling skills of a learner, because CSS helps beautify a project to that of our choice and also in a big orgnisation that deals with styling of sites, it is quite essential for a software develper to build his skill on CSS to a better position in any industry.`,
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
-    seeLiveLink: 'glittering-pixie-58ab1a.netlify.app/',
+    seeLiveLink: 'https://glittering-pixie-58ab1a.netlify.app/',
     seeSourceLink: 'https://github.com/moshoodabdullahi/fcc-city-skyline',
   },
   {
@@ -59,7 +59,7 @@ const projects = [
       The UI is also done diligently following the provided design from The Odin Project, when you look at the project layout you will be able to see a button with the text Generate Password and also 2 enpty space whre the password that was generated shows up.`,
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
-    seeLiveLink: 'random-password-generator.netlify.app/',
+    seeLiveLink: 'https://random-password-generator.netlify.app/',
     seeSourceLink: 'https://github.com/moshoodabdullahi/password-generator',
   },
   {
@@ -69,13 +69,13 @@ const projects = [
     image: 'snapshoot-rock-paper-scissors-game-img.png',
     imageAlt: 'Image of Rock Paper Scissors Game',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    fullDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      'Rock Paper Scissors Game is a project that is design for a user to play against a computer.',
+    fullDescription: `Rock Paper Scissors Game is a project that is design for a user to play against a computer, and it goes on for 5 rounds before determining if the player wins or lose to the computer, it a a common game usually used to solve an argument or use as a means to end a disagreement between peersy.
       
-      Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
+      Rock, Paper, Scissors. The familiar game of Rock, Paper, Scissors is played like this: at the same time, two players display one of three symbols: a rock, paper, or scissors. A rock beats scissors, scissors beat paper by cutting it, and paper beats rock by covering it.`,
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
-    seeLiveLink: 'abdullahi-rock-paper-scissors.netlify.app/',
+    seeLiveLink: 'https://abdullahi-rock-paper-scissors.netlify.app/',
     seeSourceLink: 'https://github.com/moshoodabdullahi/rock-paper-scissors',
   },
   {
@@ -85,13 +85,13 @@ const projects = [
     image: 'snapshoot-sign-up-form-img.png',
     imageAlt: 'Image of Sign-up Form Project',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    fullDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      'A Sign-up Form Project is one of the projects in The Odin Project that teaches about responsiveness of a page.',
+    fullDescription: `A Sign-up Form Project is one of the projects in The Odin Project that teaches about responsiveness of a page privately personalized reads; no accounts or sign-ups required..
       
-      Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.`,
+    This project is intended to give a chance to flex some of the new items that have been working with over the past few lessons. This time it’s a sign-up form for an imaginary service. This is to specify that thsis project test the reponsiveness of a page, the layout, the UI, the HTML elements used to build and also the styling`,
     framework: ['html', 'css', 'javascript'],
     frameworks: ['html', 'css', 'javascript', 'Ruby', 'BootStrap'],
-    seeLiveLink: '-add-top-signup-form.netlify.app/',
+    seeLiveLink: 'htpps://add-top-signup-form.netlify.app/',
     seeSourceLink: 'https://github.com/moshoodabdullahi/top-signup-form',
   },
 ];
