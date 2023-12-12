@@ -14,8 +14,7 @@ const generateDetailsWork = (
   seeLiveLink,
   seeSourceLink,
 ) =>
-  `<div class="details">
-  <article id="${id}" class="details-target-element details-target-element details-works-article details-popup left">
+  `<article id="${id}" class="details-target-element details-works-article details-popup left">
 <div class="works-article details-work-article d-block left">
   <div class="details-header">
     <h3 class="works-headline details-works-headline">
@@ -84,7 +83,6 @@ ${frameworks
       </svg>
     </a>
   </div>
-</div>
 </article>
 </div>`;
 
