@@ -64,7 +64,7 @@ a:hover path {
 }
 
 .details-works-article {
-  margin-top: 42px;
+  margin-top: 15px;
   border-radius: 15px;
   width: 90%;
   padding: 1rem 2rem;
@@ -928,7 +928,7 @@ article {
 
   .details-works-article {
     width: 60%;
-    height: 700px;
+    height: 580px;
     margin-left: 20%;
   }
 
@@ -972,7 +972,7 @@ article {
 
   .details-btn-wrapper {
     justify-content: center;
-    bottom: 20px;
+    bottom: 30px;
     left: 100%;
     width: 100%;
   }
