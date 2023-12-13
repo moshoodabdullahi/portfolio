@@ -965,14 +965,14 @@ article {
   .details-abt-link {
     font: 400 12px /25px var(--nav-container-font-family);
     margin-bottom: 0;
-    bottom: 130px;
+    bottom: 180px;
     left: 50%;
     width: 100%;
   }
 
   .details-btn-wrapper {
     justify-content: center;
-    bottom: 75px;
+    bottom: 45px;
     left: 100%;
     width: 100%;
   }
