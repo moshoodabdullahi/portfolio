@@ -444,34 +444,36 @@
             built or a project that needs coding. I'd love to help with it
           </p>
 
-          <form action="https://formspree.io/f/mjvdlgnp" method="POST" class="contact-form">
+          <form
+            action="https://formspree.io/f/mjvdlgnp"
+            method="POST"
+            class="contact-form"
+            id="contact-form"
+          >
             <div class="contact-group">
-              <label id="name-label" for="name">
+              <label for="name">
                 <input
                   type="text"
-                  title="name-label"
+                  title="Full Name"
                   name="name"
                   id="name"
                   class="contact-control"
                   placeholder="Enter Your Name"
                   maxlength="30"
                   aria-label="labelledby"
-                  required
               /></label>
             </div>
-
+            <p id="error-message" class="error-message"></p>
             <div class="contact-group">
-              <label id="email-label" for="email">
+              <label for="email">
                 <input
                   type="email"
-                  title="email-label"
+                  title="Email"
                   name="email"
                   id="email"
-                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"
                   class="contact-control"
                   placeholder="Enter Your Email"
                   aria-label="labelledby"
-                  required
                 />
               </label>
             </div>
@@ -485,12 +487,10 @@
                 placeholder="Write your message here"
                 maxlength="500"
                 aria-label="labelledby"
-                required
               ></textarea>
             </label>
-
             <div>
-              <button type="submit" class="contact-btn">Get in touch</button>
+              <button type="submit" class="contact-btn">Get In Touch</button>
             </div>
           </form>
         </section>
@@ -501,6 +501,7 @@
     </main>
     <script src="js/pop-up.js" type="module"></script>
     <script src="js/project.js" type="module"></script>
+    <script src="js/validate.js" type="module"></script>
     <script src="js/index.js"></script>
   </body>
 </html>
