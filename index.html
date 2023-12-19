@@ -448,7 +448,7 @@
             action="https://formspree.io/f/mjvdlgnp"
             method="POST"
             class="contact-form"
-            id="contact-form"
+            id="my-form"
           >
             <div class="contact-group">
               <label for="name">
@@ -461,6 +461,7 @@
                   placeholder="Enter Your Name"
                   maxlength="30"
                   aria-label="labelledby"
+                  required
               /></label>
             </div>
             <div class="contact-group">
@@ -473,9 +474,11 @@
                   class="contact-control"
                   placeholder="Enter Your Email"
                   aria-label="labelledby"
+                  required
                 />
               </label>
             </div>
+            <p id="error-message" class="error-message"></p>
 
             <label class="contact-text">
               <textarea
@@ -486,12 +489,13 @@
                 placeholder="Write your message here"
                 maxlength="500"
                 aria-label="labelledby"
+                required
               ></textarea>
             </label>
             <div>
-              <button type="submit" class="contact-btn" id="my-form-button">Get In Touch</button>
+              <button type="submit" class="contact-btn">Get In Touch</button>
             </div>
-            <p id="my-form-status" class="error-message"></p>
+            <p id="my-form-status"></p>
           </form>
         </section>
       </section>

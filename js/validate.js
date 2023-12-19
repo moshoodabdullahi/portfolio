@@ -1,6 +1,20 @@
-const form = document.getElementById('my-form-button');
+const form = document.querySelector('#my-form');
+const emailInput = document.querySelector('#email');
+const errorMessage = document.querySelector('#error-message');
+
 async function handleSubmit(event) {
   event.preventDefault();
+
+  const isEmailValid = emailInput.value === emailInput.value.toLowerCase();
+
+  if (isEmailValid) {
+    errorMessage.textContent = '';
+
+    console.log('Form submitted successfully!');
+  } else {
+    errorMessage.textContent = 'Email must be in lowercase.';
+  }
+
   const status = document.getElementById('my-form-status');
   const data = new FormData(event.target);
   fetch(event.target.action, {

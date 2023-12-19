@@ -56,6 +56,21 @@ body {
   margin-bottom: 4px;
 }
 
+/* .form-status {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: sans-serif;
+  background-color: var(--primary-color);
+  color: var(--btn-color);
+  display: flex;
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 6px;
+  padding-left: 6px;
+  margin-top: 8px;
+  line-height: 30px;
+} */
+
 .close-details {
   right: 4%;
 }
