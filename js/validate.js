@@ -13,6 +13,7 @@ async function handleSubmit(event) {
     console.log('Form submitted successfully!');
   } else {
     errorMessage.textContent = 'Email must be in lowercase.';
+    return errorMessage;
   }
 
   const status = document.getElementById('my-form-status');
@@ -34,6 +35,7 @@ async function handleSubmit(event) {
             status.innerHTML = data['errors'].map((error) => error['message']).join(', ');
           } else {
             status.innerHTML = 'Oops! There was a problem submitting your form';
+            return status;
           }
         });
       }
