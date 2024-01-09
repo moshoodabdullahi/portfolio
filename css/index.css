@@ -39,10 +39,36 @@
   --article-container-background: rgba(193 199 208 0.5);
   --details-btn-hover-color: white;
   --details-background-color: rgba(168 164 162 / 70%);
+  --error-message-color: rgb(255 0 0);
 }
 
 body {
   background-color: var(--body-background-color);
+}
+
+.error-message {
+  color: var(--error-message-color);
+  font-size: 12px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  padding-left: 12px;
+  margin-top: -2px;
+  margin-bottom: 4px;
+}
+
+.form-status {
+  font-size: 13px;
+  font-weight: 600;
+  font-family: sans-serif;
+  background-color: var(--primary-color);
+  color: var(--btn-color);
+  display: flex;
+  width: 30%;
+  margin-left: 35%;
+  border-radius: 6px;
+  padding-left: 6px;
+  margin-top: 8px;
+  line-height: 30px;
 }
 
 .close-details {
@@ -616,6 +642,12 @@ article {
 
   .additional {
     margin: 0;
+  }
+
+  .error-message {
+    display: flex;
+    width: 30%;
+    margin-left: 35%;
   }
 
   .mobile-navbar {
