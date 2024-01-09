@@ -9,8 +9,6 @@ async function handleSubmit(event) {
 
   if (isEmailValid) {
     errorMessage.textContent = '';
-
-    console.log('Form submitted successfully!');
   } else {
     errorMessage.textContent = 'Email must be in lowercase.';
     return errorMessage;
