@@ -8,20 +8,18 @@ function saveFormData() {
     email: emailInput.value,
     message: messageInput.value,
   };
-
   localStorage.setItem('formData', JSON.stringify(formData));
 }
 
 function loadFormData() {
   const formData = JSON.parse(localStorage.getItem('formData')) || {};
-
   nameInput.value = formData.name || '';
   emailInput.value = formData.email || '';
   messageInput.value = formData.message || '';
 }
 
-nameInput.addEventListener('input', saveFormData);
-emailInput.addEventListener('input', saveFormData);
-messageInput.addEventListener('input', saveFormData);
+nameInput.addEventListener('change', saveFormData);
+emailInput.addEventListener('change', saveFormData);
+messageInput.addEventListener('change', saveFormData);
 
 loadFormData();
