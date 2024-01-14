@@ -1,25 +1,30 @@
-const nameInput = document.getElementById('name');
-const emailInput = document.getElementById('email');
-const messageInput = document.getElementById('message');
+const LOCAL_STORAGE_KEY = 'dema-portfolio.netlify.app.formData';
 
-const saveFormData = () => {
-  const formData = {
-    name: nameInput.value,
-    email: emailInput.value,
-    message: messageInput.value,
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.querySelector('#my-form');
+  const nameInput = document.querySelector('#name');
+  const emailInput = document.querySelector('#email');
+  const messageInput = document.querySelector('#message');
+
+  const saveFormData = () => {
+    const formData = {
+      name: nameInput.value,
+      email: emailInput.value,
+      message: messageInput.value,
+    };
+    localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(formData));
   };
-  localStorage.setItem('formData', JSON.stringify(formData));
-};
 
-const loadFormData = () => {
-  const formData = JSON.parse(localStorage.getItem('formData')) || {};
-  nameInput.value = formData.name || '';
-  emailInput.value = formData.email || '';
-  messageInput.value = formData.message || '';
-};
+  const loadFormData = () => {
+    const formData = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || {};
+    nameInput.value = formData.name || '';
+    emailInput.value = formData.email || '';
+    messageInput.value = formData.message || '';
+  };
 
-nameInput.addEventListener('change', saveFormData);
-emailInput.addEventListener('change', saveFormData);
-messageInput.addEventListener('change', saveFormData);
+  form.addEventListener('change', saveFormData);
 
-loadFormData();
+  loadFormData();
+});
+
+export default LOCAL_STORAGE_KEY;
