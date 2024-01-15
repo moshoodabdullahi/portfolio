@@ -1,3 +1,5 @@
+import LOCAL_STORAGE_KEY from './local-storage.js';
+
 const form = document.querySelector('#my-form');
 const emailInput = document.querySelector('#email');
 const errorMessage = document.querySelector('#error-message');
@@ -27,6 +29,7 @@ async function handleSubmit(event) {
       if (response.ok) {
         status.innerHTML = 'Thanks for your submission!';
         form.reset();
+        localStorage.removeItem(LOCAL_STORAGE_KEY);
       } else {
         response.json().then((data) => {
           if (Object.hasOwn(data, 'errors')) {
