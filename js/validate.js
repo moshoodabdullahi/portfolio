@@ -29,7 +29,7 @@ async function handleSubmit(event) {
       if (response.ok) {
         status.innerHTML = 'Thanks for your submission!';
         form.reset();
-        LOCAL_STORAGE_KEY.setItem(LOCAL_STORAGE_KEY, null);
+        localStorage.removeItem(LOCAL_STORAGE_KEY);
       } else {
         response.json().then((data) => {
           if (Object.hasOwn(data, 'errors')) {
